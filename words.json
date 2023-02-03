@@ -164,4 +164,6 @@
 {"romaji":"aoi", "gana":"あおい","translation":"Blue"},
 {"romaji":"murasaki", "gana":"むらさき","translation":"Purple"},
 {"romaji":"kasshoku", "gana":"かっしょく","translation":"Brown"},
-{"romaji":"pinku", "gana":"ピンク","translation":"Pink"}]
+{"romaji":"pinku", "gana":"ピンク","translation":"Pink"},
+{"romaji":"ocha", "gana":"おちゃ","translation":"Green Tea"},
+{"romaji":"gohan", "gana":"ごはん","translation":"Rice"}]
