@@ -1,1 +1,10 @@
-[{"character":"一", "romaji":"ichi", "translation":"One"}]
+[{"character":"一", "romaji":"ichi", "translation":"One"},
+{"character":"ニ", "romaji":"ni", "translation":"Two"},
+{"character":"三", "romaji":"san", "translation":"Three"},
+{"character":"四", "romaji":"yon, shi", "translation":"Four"},
+{"character":"五", "romaji":"go", "translation":"Five"},
+{"character":"六", "romaji":"roku", "translation":"Six"},
+{"character":"七", "romaji":"shichi, nana", "translation":"Seven"},
+{"character":"八", "romaji":"hachi", "translation":"Eight"},
+{"character":"九", "romaji":"kyu", "translation":"Nine"},
+{"character":"十", "romaji":"juu", "translation":"Ten"}]
