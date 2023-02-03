@@ -52,6 +52,7 @@
 {"romaji":"arigatou", "gana":"ありがとう","translation":"Thank You"},
 {"romaji":"iie", "gana":"いいえ","translation":"No"},
 {"romaji":"ee", "gana":"ええ","translation":"Yes"},
+{"romaji":"to", "gana":"と","translation":"And"},
 {"romaji":"oishii", "gana":"おいしい","translation":"Delicious"},
 {"romaji":"desaato", "gana":"デサート","translation":"Dessert"},
 {"romaji":"watashi wa ~desu", "gana":"わたしわです","translation":"Im...(__)"},
@@ -166,4 +167,9 @@
 {"romaji":"kasshoku", "gana":"かっしょく","translation":"Brown"},
 {"romaji":"pinku", "gana":"ピンク","translation":"Pink"},
 {"romaji":"ocha", "gana":"おちゃ","translation":"Green Tea"},
-{"romaji":"gohan", "gana":"ごはん","translation":"Rice"}]
+{"romaji":"gohan", "gana":"ごはん","translation":"Rice"},
+{"romaji":"isha", "gana":"いしゃ","translation":"Doctor"},
+{"romaji":"bengoshi", "gana":"べんごし","translation":"Lawyer"},
+{"romaji":"kakkoii", "gana":"かっこいいい","translation":"Cool"},
+{"romaji":"gakusei", "gana":"がくせい","translation":"Student"},
+{"romaji":"hito", "gana":"ひと","translation":"Person"}]
