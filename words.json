@@ -64,6 +64,8 @@
 {"romaji":"karera", "gana":"かれら","translation":"They/Them"},
 {"romaji":"minasan", "gana":"みなさん","translation":"Everyone"},
 {"romaji":"sayounara", "gana":"さようなら","translation":"Goodbye"},
+{"romaji":"jane", "gana":"じゃあね","translation":"Bye, See You later"},
+{"romaji":"mata ashita", "gana":"またあした","translation":"See You Tomorrow"},
 {"romaji":"hai", "gana":"はい","translation":"Yes"},
 {"romaji":"dare", "gana":"だれ","translation":"Who"},
 {"romaji":"nani", "gana":"なに","translation":"What"},
@@ -172,4 +174,9 @@
 {"romaji":"bengoshi", "gana":"べんごし","translation":"Lawyer"},
 {"romaji":"kakkoii", "gana":"かっこいいい","translation":"Cool"},
 {"romaji":"gakusei", "gana":"がくせい","translation":"Student"},
+{"romaji":"karee", "gana":"カレー","translation":"Curry"},
+{"romaji":"raamen", "gana":"らあめん","translation":"Ramen"},
+{"romaji":"oishii", "gana":"おいしい","translation":"Tasty"},
+{"romaji":"piza", "gana":"ピザ","translation":"Pizza"},
+{"romaji":"keeki", "gana":"ケーキ","translation":"Cake"},
 {"romaji":"hito", "gana":"ひと","translation":"Person"}]
