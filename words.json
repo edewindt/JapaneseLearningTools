@@ -178,4 +178,11 @@
 {"romaji":"oishii", "gana":"おいしい","translation":"Tasty"},
 {"romaji":"piza", "gana":"ピザ","translation":"Pizza"},
 {"romaji":"keeki", "gana":"ケーキ","translation":"Cake"},
-{"romaji":"hito", "gana":"ひと","translation":"Person"}]
+{"romaji":"hito", "gana":"ひと","translation":"Person"},
+{"romaji":"amerika", "gana":"アメリカ","translation":"America"},
+{"romaji":"kanada", "gana":"カナダ","translation":"Canada"},
+{"romaji":"nihon", "gana":"にほん","translation":"Japan"},
+{"romaji":"chiisai", "gana":"ちいさい","translation":"Small"},
+{"romaji":"igirisu", "gana":"おおきい","translation":"Big"},
+{"romaji":"burajiru", "gana":"ぶらじる","translation":"Brazil"}
+]
