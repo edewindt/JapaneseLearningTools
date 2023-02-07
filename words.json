@@ -20,6 +20,7 @@
 {"romaji":"sore", "gana":"それ","translation":"That"},
 {"romaji":"kore", "gana":"これ","translation":"This"},
 {"romaji":"koko", "gana":"ここ","translation":"Here"},
+{"romaji":"soko", "gana":"そこ","translation":"There"},
 {"romaji":"oyobi", "gana":"および","translation":"Aswell As"},
 {"romaji":"achira", "gana":"あちら","translation":"There"},
 {"romaji":"ji", "gana":"じ","translation":"o' Clock"},
@@ -184,5 +185,9 @@
 {"romaji":"nihon", "gana":"にほん","translation":"Japan"},
 {"romaji":"chiisai", "gana":"ちいさい","translation":"Small"},
 {"romaji":"igirisu", "gana":"おおきい","translation":"Big"},
-{"romaji":"burajiru", "gana":"ぶらじる","translation":"Brazil"}
+{"romaji":"burajiru", "gana":"ぶらじる","translation":"Brazil"},
+{"romaji":"depaato", "gana":"デパート","translation":"Department Store"},
+{"romaji":"basutei", "gana":"バステイ","translation":"Bus Stop"},
+{"romaji":"eki", "gana":"えき","translation":"Train Station"},
+{"romaji":"daigaku", "gana":"だいがく","translation":"University"}
 ]
