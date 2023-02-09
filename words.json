@@ -182,19 +182,20 @@
 {"romaji":"hito", "gana":"ひと","translation":"Person"},
 {"romaji":"amerika", "gana":"アメリカ","translation":"America"},
 {"romaji":"kanada", "gana":"カナダ","translation":"Canada"},
+{"romaji":"kanadajin", "gana":"カナダジン","translation":"Canadian"},
 {"romaji":"nihon", "gana":"にほん","translation":"Japan"},
 {"romaji":"chiisai", "gana":"ちいさい","translation":"Small"},
-{"romaji":"igirisu", "gana":"おおきい","translation":"Big"},
+{"romaji":"igirisu", "gana":"イグリス","translation":"Britain/England"},
 {"romaji":"burajiru", "gana":"ぶらじる","translation":"Brazil"},
 {"romaji":"depaato", "gana":"デパート","translation":"Department Store"},
 {"romaji":"basutei", "gana":"バステイ","translation":"Bus Stop"},
 {"romaji":"eki", "gana":"えき","translation":"Train Station"},
 {"romaji":"daigaku", "gana":"だいがく","translation":"University"},
+{"romaji":"ookii", "gana":"おおきい","translation":"Big"},
 {"romaji":"kutsu", "gana":"くつ","translation":"Shoe"},
 {"romaji":"korera", "gana":"これら","translation":"These"},
 {"romaji":"sorera", "gana":"それら","translation":"Those"},
 {"romaji":"akarui", "gana":"あかるい","translation":"Cheerful"},
 {"romaji":"kono", "gana":"この","translation":"This Person"},
 {"romaji":"sono", "gana":"その","translation":"That Person"},
-{"romaji":"shiroi", "gana":"しろい","translation":"White"}
-]
+{"romaji":"shiroi", "gana":"しろい","translation":"White"}]
