@@ -189,5 +189,12 @@
 {"romaji":"depaato", "gana":"デパート","translation":"Department Store"},
 {"romaji":"basutei", "gana":"バステイ","translation":"Bus Stop"},
 {"romaji":"eki", "gana":"えき","translation":"Train Station"},
-{"romaji":"daigaku", "gana":"だいがく","translation":"University"}
+{"romaji":"daigaku", "gana":"だいがく","translation":"University"},
+{"romaji":"kutsu", "gana":"くつ","translation":"Shoe"},
+{"romaji":"korera", "gana":"これら","translation":"University"},
+{"romaji":"sorera", "gana":"それら","translation":"University"},
+{"romaji":"akarui", "gana":"あかるい","translation":"University"},
+{"romaji":"kono", "gana":"この","translation":"University"},
+{"romaji":"sono", "gana":"その","translation":"University"},
+{"romaji":"shiroi", "gana":"しろい","translation":"University"}
 ]
