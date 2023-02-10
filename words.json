@@ -198,4 +198,12 @@
 {"romaji":"akarui", "gana":"あかるい","translation":"Cheerful"},
 {"romaji":"kono", "gana":"この","translation":"This Person"},
 {"romaji":"sono", "gana":"その","translation":"That Person"},
-{"romaji":"shiroi", "gana":"しろい","translation":"White"}]
+{"romaji":"shiroi", "gana":"しろい","translation":"White"},
+{"romaji":"konbini", "gana":"コンビニ","translation":"Convenience Store"},
+{"romaji":"hoteru", "gana":"ホテル","translation":"Hotel"},
+{"romaji":"doko", "gana":"どこ","translation":"Where"},
+{"romaji":"koukousei", "gana":"こうこうせい","translation":"Highschool Student"},
+{"romaji":"daigakusei", "gana":"だいがくせい","translation":"University Student"},
+{"romaji":"kaishain", "gana":"かいしゃいん","translation":"Employee"},
+{"romaji":"janai", "gana":"じゃない","translation":"Not"}
+]
