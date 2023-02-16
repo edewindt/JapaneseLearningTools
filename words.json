@@ -205,5 +205,10 @@
 {"romaji":"koukousei", "gana":"こうこうせい","translation":"Highschool Student"},
 {"romaji":"daigakusei", "gana":"だいがくせい","translation":"University Student"},
 {"romaji":"kaishain", "gana":"かいしゃいん","translation":"Employee"},
-{"romaji":"janai", "gana":"じゃない","translation":"Not"}
+{"romaji":"janai", "gana":"じゃない","translation":"Not"},
+{"romaji":"sou desu", "gana":"じゃない","translation":"Not"},
+{"romaji":"chugoku", "gana":"じゃない","translation":"Not"},
+{"romaji":"mekishiko", "gana":"じゃない","translation":"Not"},
+{"romaji":"boushi", "gana":"じゃない","translation":"Not"},
+{"romaji":"kasa", "gana":"じゃない","translation":"Not"}
 ]
