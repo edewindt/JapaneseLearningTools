@@ -4,15 +4,36 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
-class HiraganaScreen extends StatelessWidget {
+class HiraganaScreen extends StatefulWidget {
   const HiraganaScreen({super.key});
   static const title = "Hiragana/ひらがな";
+
   @override
-  Widget build(BuildContext context) {
+  State<HiraganaScreen> createState() => _HiraganaScreenState();
+}
+
+class _HiraganaScreenState extends State<HiraganaScreen> {
+  List items = [];
+  @override
+  Future<void> readJson() async {
+    final String response =
+        await rootBundle.loadString('Data/hiragana_characters.json');
+    final data = await json.decode(response);
+    setState(() {
+      items = data;
+    });
+  }
+
+  @override
+  void initState() {
     readJson();
+    super.initState();
+  }
+
+  Widget build(BuildContext context) {
     return Scaffold(
       body: GridView(
-        children: [CharacterWidget(title: "さ")],
+        children: [for (var i in items) CharacterWidget(title: i["character"])],
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
           maxCrossAxisExtent: 300,
           crossAxisSpacing: 20,
@@ -21,16 +42,8 @@ class HiraganaScreen extends StatelessWidget {
       ),
       appBar: AppBar(
         centerTitle: true,
-        title: const Text(title),
+        title: const Text(HiraganaScreen.title),
       ),
     );
   }
-}
-
-Future<void> readJson() async {
-  final String response =
-      await rootBundle.loadString('Data/hiragana_characters.json');
-  final data = await json.decode(response);
-  print(response);
-// ...
 }
