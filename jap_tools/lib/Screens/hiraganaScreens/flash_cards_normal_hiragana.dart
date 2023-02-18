@@ -80,16 +80,23 @@ class FlashCardLogic extends StatefulWidget {
 class _FlashCardLogicState extends State<FlashCardLogic> {
   @override
   int index = 0;
-
+  var var_items;
   void scramble() {
     setState(() {
-      index = _random.nextInt(widget.items.length);
+      int last_index = index;
+      if (var_items.length < 2) {
+        Navigator.of(context).pop();
+        return;
+      }
+      var_items.removeAt(last_index);
+      index = _random.nextInt(var_items.length);
       _spoil = true;
     });
   }
 
   void initState() {
     setState(() {
+      var_items = widget.items;
       index = _random.nextInt(widget.items.length);
       _spoil = true;
     });

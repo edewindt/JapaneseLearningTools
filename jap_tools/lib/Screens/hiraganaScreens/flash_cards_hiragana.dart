@@ -89,7 +89,7 @@ class _FlashCardLogicState extends State<FlashCardLogic> {
         return;
       }
       var_items.removeAt(last_index);
-      index = _random.nextInt(widget.items.length);
+      index = _random.nextInt(var_items.length);
       _spoil = true;
     });
   }
