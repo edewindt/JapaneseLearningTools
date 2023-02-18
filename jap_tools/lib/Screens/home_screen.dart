@@ -4,8 +4,9 @@ import 'package:jap_tools/Screens/dakuon.dart';
 import 'package:jap_tools/Screens/hiraganaScreens/hiragana_screen.dart';
 import 'package:jap_tools/Screens/japanese_words.dart';
 import 'package:jap_tools/Screens/kanji.dart';
-import 'package:jap_tools/Screens/katana_screen.dart';
 import 'package:jap_tools/Widgets/card_element.dart';
+
+import 'katakanaScreens/katakana_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   final VoidCallback toggleDarkmode;
