@@ -1,3 +1,4 @@
+import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,6 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: FlexThemeData.light(scheme: FlexScheme.hippieBlue),
+      /* light theme settings */
+      darkTheme: FlexThemeData.dark(scheme: FlexScheme.hippieBlue),
+      /* dark theme settings */
+      themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
