@@ -210,5 +210,6 @@
 {"romaji":"chugoku", "gana":"ちゅごく","translation":"China"},
 {"romaji":"mekishiko", "gana":"メキシコ","translation":"Mexico"},
 {"romaji":"boushi", "gana":"ぼうし","translation":"Hat"},
-{"romaji":"kasa", "gana":"かさ","translation":"Umbrella"}
+{"romaji":"kasa", "gana":"かさ","translation":"Umbrella"},
+{"romaji":"taberu", "gana":"たべる","translation":"Eat"}
 ]
