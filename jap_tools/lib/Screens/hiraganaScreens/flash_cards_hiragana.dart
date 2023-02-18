@@ -80,9 +80,12 @@ class FlashCardLogic extends StatefulWidget {
 class _FlashCardLogicState extends State<FlashCardLogic> {
   @override
   int index = 0;
-
+  var var_items;
   void scramble() {
     setState(() {
+      int last_index = index;
+
+      var_items.removeAt(last_index);
       index = _random.nextInt(widget.items.length);
       _spoil = true;
     });
@@ -91,7 +94,8 @@ class _FlashCardLogicState extends State<FlashCardLogic> {
   @override
   void initState() {
     setState(() {
-      index = _random.nextInt(widget.items.length);
+      var_items = widget.items;
+      index = _random.nextInt(var_items.length);
       _spoil = true;
     });
     super.initState();
@@ -101,7 +105,7 @@ class _FlashCardLogicState extends State<FlashCardLogic> {
 
   Widget build(BuildContext context) {
     CharacterData currentCard = CharacterData(
-        widget.items[index]["character"], widget.items[index]["romaji"]);
+        var_items[index]["character"], var_items[index]["romaji"]);
     return Center(
       child: Container(
         constraints: BoxConstraints(maxWidth: 1024),
