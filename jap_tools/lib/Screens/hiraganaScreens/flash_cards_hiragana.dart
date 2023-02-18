@@ -93,25 +93,38 @@ class _FlashCardLogicState extends State<FlashCardLogic> {
   Widget build(BuildContext context) {
     CharacterData currentCard = CharacterData(
         widget.items[index]["character"], widget.items[index]["romaji"]);
-    return Column(
-      children: [
-        Padding(
-          padding: const EdgeInsets.all(30.0),
-          child: CharacterWidget(
-            title: currentCard.hiragana,
-            sound: _spoil ? " " : currentCard.romaji,
-            padding: 30.0,
-          ),
+    return Center(
+      child: Container(
+        constraints: BoxConstraints(maxWidth: 1024),
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(30.0),
+              child: CharacterWidget(
+                title: currentCard.hiragana,
+                sound: _spoil ? " " : currentCard.romaji,
+                padding: 30.0,
+              ),
+            ),
+            Container(
+                width: double.infinity,
+                padding: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10),
+                child:
+                    ElevatedButton(onPressed: scramble, child: Text("Next"))),
+            Container(
+              width: double.infinity,
+              padding: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10),
+              child: ElevatedButton(
+                  onPressed: () {
+                    setState(() {
+                      _spoil = false;
+                    });
+                  },
+                  child: Text("Check Answer")),
+            )
+          ],
         ),
-        ElevatedButton(onPressed: scramble, child: Text("Next")),
-        ElevatedButton(
-            onPressed: () {
-              setState(() {
-                _spoil = false;
-              });
-            },
-            child: Text("Check Answer"))
-      ],
+      ),
     );
   }
 }
