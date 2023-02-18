@@ -4,15 +4,15 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
-class HiraganaScreen extends StatefulWidget {
-  const HiraganaScreen({super.key});
+class HiaraganaChart extends StatefulWidget {
+  const HiaraganaChart({super.key});
   static const title = "Hiragana/ひらがな";
 
   @override
-  State<HiraganaScreen> createState() => _HiraganaScreenState();
+  State<HiaraganaChart> createState() => _HiaraganaChartState();
 }
 
-class _HiraganaScreenState extends State<HiraganaScreen> {
+class _HiaraganaChartState extends State<HiaraganaChart> {
   List items = [];
   @override
   Future<void> readJson() async {
@@ -45,7 +45,7 @@ class _HiraganaScreenState extends State<HiraganaScreen> {
       ),
       appBar: AppBar(
         centerTitle: true,
-        title: const Text(HiraganaScreen.title),
+        title: const Text(HiaraganaChart.title),
       ),
     );
   }
