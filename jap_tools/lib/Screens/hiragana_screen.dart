@@ -33,11 +33,14 @@ class _HiraganaScreenState extends State<HiraganaScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: GridView(
-        children: [for (var i in items) CharacterWidget(title: i["character"])],
+        children: [
+          for (var i in items)
+            CharacterWidget(title: i["character"], sound: i["romaji"])
+        ],
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
           maxCrossAxisExtent: 300,
-          crossAxisSpacing: 20,
-          mainAxisSpacing: 20,
+          crossAxisSpacing: 5,
+          mainAxisSpacing: 5,
         ),
       ),
       appBar: AppBar(

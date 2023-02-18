@@ -4,7 +4,8 @@ import 'package:flutter/src/widgets/placeholder.dart';
 
 class CharacterWidget extends StatelessWidget {
   final String title;
-  const CharacterWidget({super.key, required this.title});
+  final String sound;
+  const CharacterWidget({super.key, required this.title, required this.sound});
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +19,7 @@ class CharacterWidget extends StatelessWidget {
             style: TextStyle(fontSize: 70),
           ),
           Text(
-            title,
+            sound,
             style: TextStyle(fontSize: 30),
           ),
         ],
