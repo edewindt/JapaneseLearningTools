@@ -4,19 +4,15 @@ import 'package:jap_tools/Screens/dakuon.dart';
 import 'package:jap_tools/Screens/hiraganaScreens/hiragana_screen.dart';
 import 'package:jap_tools/Screens/japanese_words.dart';
 import 'package:jap_tools/Screens/kanji.dart';
-import 'package:jap_tools/Screens/katana_screen.dart';
 import 'package:jap_tools/Widgets/card_element.dart';
 
-class HomeScreen extends StatelessWidget {
-  final VoidCallback toggleDarkmode;
-  HomeScreen({super.key, required this.toggleDarkmode});
+class KatakanaExercises extends StatelessWidget {
+  KatakanaExercises({super.key});
   List<Topic> topics = [
-    Topic(name: "Hiragana/ひらがな", widgetData: HiraganaScreen()),
-    Topic(name: "Katakana/カタログ", widgetData: KatakanaScreen()),
-    Topic(name: "Dakuon/濁音", widgetData: DakuonScreen()),
-    Topic(name: "Kanji/漢字", widgetData: KanjiScreen()),
-    Topic(name: "Japanese Words", widgetData: JapaneseWordsScreen()),
-    Topic(name: "Common Phrases", widgetData: CommonPhrasesScreen())
+    Topic(name: "Random Exercises", widgetData: CommonPhrasesScreen()),
+    Topic(name: "Write 10 Times", widgetData: CommonPhrasesScreen()),
+    Topic(name: "Repeat Outloud 10 Times", widgetData: CommonPhrasesScreen()),
+    Topic(name: "Read as part of Word", widgetData: CommonPhrasesScreen())
   ];
   @override
   Widget build(BuildContext context) {
@@ -35,8 +31,6 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
         appBar: AppBar(
-          leading: IconButton(
-              onPressed: toggleDarkmode, icon: Icon(Icons.dark_mode)),
           centerTitle: true,
           title: Text("Japanese Learning Tools"),
         ));
