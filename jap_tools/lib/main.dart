@@ -1,6 +1,6 @@
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
-import 'package:jap_tools/home_screen.dart';
+import 'package:jap_tools/Screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
