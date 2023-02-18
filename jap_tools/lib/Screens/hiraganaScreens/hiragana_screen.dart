@@ -36,7 +36,7 @@ class HiraganaScreen extends StatelessWidget {
         ),
         appBar: AppBar(
           centerTitle: true,
-          title: Text("Japanese Learning Tools"),
+          title: Text("Hiragana Learning Tools"),
         ));
   }
 }
