@@ -25,7 +25,7 @@ class _FlashCardsNormalState extends State<FlashCardsNormal> {
       _isLoading = true;
     });
     final String response =
-        await rootBundle.loadString('Data/katakana_characters.json');
+        await rootBundle.loadString('data/katakana_characters.json');
     final data = await json.decode(response);
     setState(() {
       items = data;
@@ -86,6 +86,14 @@ class _FlashCardLogicState extends State<FlashCardLogic> {
       index = _random.nextInt(widget.items.length);
       _spoil = true;
     });
+  }
+
+  void initState() {
+    setState(() {
+      index = _random.nextInt(widget.items.length);
+      _spoil = true;
+    });
+    super.initState();
   }
 
   bool _spoil = true;

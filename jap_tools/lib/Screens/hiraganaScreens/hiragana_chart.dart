@@ -17,7 +17,7 @@ class _HiaraganaChartState extends State<HiaraganaChart> {
   @override
   Future<void> readJson() async {
     final String response =
-        await rootBundle.loadString('Data/hiragana_characters.json');
+        await rootBundle.loadString('data/hiragana_characters.json');
     final data = await json.decode(response);
     setState(() {
       items = data;
