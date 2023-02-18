@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
@@ -5,24 +7,32 @@ import 'package:flutter/src/widgets/placeholder.dart';
 class CharacterWidget extends StatelessWidget {
   final String title;
   final String sound;
-  const CharacterWidget({super.key, required this.title, required this.sound});
+  final double padding;
+  const CharacterWidget(
+      {super.key,
+      required this.title,
+      required this.sound,
+      this.padding = 0.0});
 
   @override
   Widget build(BuildContext context) {
     return Card(
       child: Center(
-          child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text(
-            title,
-            style: TextStyle(fontSize: 70),
-          ),
-          Text(
-            sound,
-            style: TextStyle(fontSize: 30),
-          ),
-        ],
+          child: Padding(
+        padding: EdgeInsets.all(padding),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              title,
+              style: TextStyle(fontSize: 70),
+            ),
+            Text(
+              sound,
+              style: TextStyle(fontSize: 30),
+            ),
+          ],
+        ),
       )),
     );
   }

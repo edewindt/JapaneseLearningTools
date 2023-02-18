@@ -84,16 +84,33 @@ class _FlashCardLogicState extends State<FlashCardLogic> {
   void scramble() {
     setState(() {
       index = _random.nextInt(widget.items.length);
+      _spoil = true;
     });
   }
+
+  bool _spoil = true;
 
   Widget build(BuildContext context) {
     CharacterData currentCard = CharacterData(
         widget.items[index]["character"], widget.items[index]["romaji"]);
     return Column(
       children: [
-        CharacterWidget(title: currentCard.hiragana, sound: currentCard.romaji),
-        ElevatedButton(onPressed: scramble, child: Text("Next"))
+        Padding(
+          padding: const EdgeInsets.all(30.0),
+          child: CharacterWidget(
+            title: currentCard.hiragana,
+            sound: _spoil ? " " : currentCard.romaji,
+            padding: 30.0,
+          ),
+        ),
+        ElevatedButton(onPressed: scramble, child: Text("Next")),
+        ElevatedButton(
+            onPressed: () {
+              setState(() {
+                _spoil = false;
+              });
+            },
+            child: Text("Check Answer"))
       ],
     );
   }
