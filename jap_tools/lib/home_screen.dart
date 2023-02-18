@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:jap_tools/card_element.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
-
+  HomeScreen({super.key});
+  List<Topic> topics = [
+    Topic(Name: "Hiragana/ひらがな"),
+    Topic(Name: "Katakana/カタログ"),
+    Topic(Name: "Kanji/漢字")
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -11,13 +16,7 @@ class HomeScreen extends StatelessWidget {
             constraints: BoxConstraints(maxWidth: 1024),
             margin: EdgeInsets.only(top: 40),
             child: ListView(children: [
-              Card(
-                elevation: 2,
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Center(child: Text("Hiragana/ひらがな")),
-                ),
-              )
+              for (var i in topics) CardElement(TextData: i.Name)
             ]),
           ),
         ),
@@ -26,4 +25,9 @@ class HomeScreen extends StatelessWidget {
           title: Text("Japanese Learning Tools"),
         ));
   }
+}
+
+class Topic {
+  final String Name;
+  Topic({required this.Name});
 }
