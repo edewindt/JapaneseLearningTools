@@ -24,7 +24,11 @@ class HomeScreen extends StatelessWidget {
             constraints: BoxConstraints(maxWidth: 1024),
             margin: EdgeInsets.only(top: 40),
             child: ListView(children: [
-              for (var i in topics) CardElement(TextData: i.name)
+              for (var i in topics)
+                CardElement(
+                  textData: i.name,
+                  destination: i.widgetData,
+                )
             ]),
           ),
         ),

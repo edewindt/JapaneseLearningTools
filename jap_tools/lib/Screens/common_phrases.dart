@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class CommonPhrases_Screen extends StatelessWidget {
-  const CommonPhrases_Screen({super.key});
-  static const title = "Hiragana/ひらがな";
+class CommonPhrasesScreen extends StatelessWidget {
+  const CommonPhrasesScreen({super.key});
+  static const title = "Common Phrases";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
