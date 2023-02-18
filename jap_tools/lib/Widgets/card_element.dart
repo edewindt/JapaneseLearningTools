@@ -14,11 +14,12 @@ class CardElement extends StatelessWidget {
     return InkWell(
       onTap: () => Navigator.push(
           context, MaterialPageRoute(builder: (context) => destination)),
-      splashColor: Colors.blueAccent,
+      splashColor: Colors.lightBlue,
+      hoverColor: Color.fromARGB(134, 3, 168, 244),
       child: Card(
           elevation: 2,
           child: Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(12.0),
             child: Center(child: Text(textData)),
           )),
     );
