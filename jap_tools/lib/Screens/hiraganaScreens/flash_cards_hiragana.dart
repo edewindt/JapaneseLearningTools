@@ -84,7 +84,10 @@ class _FlashCardLogicState extends State<FlashCardLogic> {
   void scramble() {
     setState(() {
       int last_index = index;
-
+      if (var_items.length < 2) {
+        Navigator.of(context).pop();
+        return;
+      }
       var_items.removeAt(last_index);
       index = _random.nextInt(widget.items.length);
       _spoil = true;
