@@ -7,7 +7,8 @@ import 'package:jap_tools/Screens/kanji.dart';
 import 'package:jap_tools/Widgets/card_element.dart';
 
 class HomeScreen extends StatelessWidget {
-  HomeScreen({super.key});
+  final VoidCallback toggleDarkmode;
+  HomeScreen({super.key, required this.toggleDarkmode});
   List<Topic> topics = [
     Topic(name: "Hiragana/ひらがな", widgetData: HiraganaScreen()),
     Topic(name: "Katakana/カタログ", widgetData: CommonPhrasesScreen()),
@@ -33,6 +34,8 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
         appBar: AppBar(
+          leading: IconButton(
+              onPressed: toggleDarkmode, icon: Icon(Icons.dark_mode)),
           centerTitle: true,
           title: Text("Japanese Learning Tools"),
         ));

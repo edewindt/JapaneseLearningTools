@@ -3,11 +3,23 @@ import 'package:flutter/material.dart';
 import 'package:jap_tools/Screens/home_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MyApp extends StatefulWidget {
+  MyApp({super.key});
+
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  bool darkmode = false;
+  void darkmodeToggle() {
+    setState(() {
+      darkmode = !darkmode;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -16,11 +28,12 @@ class MyApp extends StatelessWidget {
           scheme: FlexScheme.bahamaBlue,
           scaffoldBackground: Color.fromARGB(255, 204, 214, 232)),
       /* light theme settings */
-      darkTheme: FlexThemeData.dark(scheme: FlexScheme.bahamaBlue),
+      darkTheme: FlexThemeData.dark(
+          scheme: FlexScheme.bahamaBlue, primary: Colors.red),
       /* dark theme settings */
-      themeMode: ThemeMode.light,
+      themeMode: darkmode ? ThemeMode.dark : ThemeMode.light,
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: HomeScreen(toggleDarkmode: () => darkmodeToggle()),
     );
   }
 }

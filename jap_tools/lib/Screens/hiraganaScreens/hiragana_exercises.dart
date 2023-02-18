@@ -1,21 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:jap_tools/Screens/common_phrases.dart';
-import 'package:jap_tools/Screens/hiraganaScreens/flash_cards_normal_hiragana.dart';
-import 'package:jap_tools/Screens/hiraganaScreens/hiragana_chart.dart';
-import 'package:jap_tools/Screens/hiraganaScreens/hiragana_exercises.dart';
+import 'package:jap_tools/Screens/dakuon.dart';
+import 'package:jap_tools/Screens/hiraganaScreens/hiragana_screen.dart';
 import 'package:jap_tools/Screens/japanese_words.dart';
+import 'package:jap_tools/Screens/kanji.dart';
 import 'package:jap_tools/Widgets/card_element.dart';
 
-import 'flash_cards_hiragana.dart';
-
-class HiraganaScreen extends StatelessWidget {
-  HiraganaScreen({super.key});
+class HiraganaExercises extends StatelessWidget {
+  HiraganaExercises({super.key});
   List<Topic> topics = [
-    Topic(name: "Hiragana Chart", widgetData: HiaraganaChart()),
-    Topic(name: "Flashcards (Romaji)", widgetData: FlashCards()),
-    Topic(name: "Flashcards (Normal)", widgetData: FlashCardsNormal()),
-    Topic(name: "Exercises", widgetData: HiraganaExercises()),
-    Topic(name: "Test Proficiency", widgetData: CommonPhrasesScreen())
+    Topic(name: "Random Exercises", widgetData: CommonPhrasesScreen()),
+    Topic(name: "Write 10 Times", widgetData: CommonPhrasesScreen()),
+    Topic(name: "Repeat Outloud 10 Times", widgetData: CommonPhrasesScreen()),
+    Topic(name: "Read as part of Word", widgetData: CommonPhrasesScreen())
   ];
   @override
   Widget build(BuildContext context) {
@@ -35,7 +32,7 @@ class HiraganaScreen extends StatelessWidget {
         ),
         appBar: AppBar(
           centerTitle: true,
-          title: Text("Hiragana Learning Tools"),
+          title: Text("Japanese Learning Tools"),
         ));
   }
 }
