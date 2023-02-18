@@ -6,7 +6,10 @@ class HomeScreen extends StatelessWidget {
   List<Topic> topics = [
     Topic(Name: "Hiragana/ひらがな"),
     Topic(Name: "Katakana/カタログ"),
-    Topic(Name: "Kanji/漢字")
+    Topic(Name: "Dakuon/濁音"),
+    Topic(Name: "Kanji/漢字"),
+    Topic(Name: "Japanese Words"),
+    Topic(Name: "Common Phrases")
   ];
   @override
   Widget build(BuildContext context) {
