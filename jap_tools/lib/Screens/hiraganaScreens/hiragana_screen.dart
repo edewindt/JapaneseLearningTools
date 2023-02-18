@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:jap_tools/Screens/common_phrases.dart';
 import 'package:jap_tools/Screens/dakuon.dart';
-import 'package:jap_tools/Screens/hiraganaScreens/hiragana_screen%20copy.dart';
+import 'package:jap_tools/Screens/hiraganaScreens/flash_cards_normal_hiragana.dart';
+import 'package:jap_tools/Screens/hiraganaScreens/hiragana_chart.dart';
 import 'package:jap_tools/Screens/hiraganaScreens/hiragana_screen.dart';
 import 'package:jap_tools/Screens/japanese_words.dart';
 import 'package:jap_tools/Screens/kanji.dart';
@@ -12,9 +13,9 @@ import 'flash_cards_hiragana.dart';
 class HiraganaScreen extends StatelessWidget {
   HiraganaScreen({super.key});
   List<Topic> topics = [
-    Topic(name: "Hiragana Chart", widgetData: FlashCards()),
-    Topic(name: "Flashcards (Romaji)", widgetData: HiaraganaChart()),
-    Topic(name: "Flashcards (Normal)", widgetData: KanjiScreen()),
+    Topic(name: "Hiragana Chart", widgetData: HiaraganaChart()),
+    Topic(name: "Flashcards (Romaji)", widgetData: FlashCards()),
+    Topic(name: "Flashcards (Normal)", widgetData: FlashCardsNormal()),
     Topic(name: "Exercises", widgetData: JapaneseWordsScreen()),
     Topic(name: "Test Proficiency", widgetData: CommonPhrasesScreen())
   ];
