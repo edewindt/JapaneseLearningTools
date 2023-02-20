@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jap_tools/Screens/common_phrases.dart';
-import 'package:jap_tools/Screens/hiraganaScreens/flash_cards_normal_hiragana.dart';
+import 'package:jap_tools/Screens/katakanaScreens/flash_cards_normal_katakana.dart';
 import 'package:jap_tools/Widgets/card_element.dart';
 
 import 'flash_cards_katakana.dart';
