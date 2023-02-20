@@ -6,7 +6,7 @@ import 'package:flutter/services.dart';
 
 class DakuonHiaraganaChart extends StatefulWidget {
   const DakuonHiaraganaChart({super.key});
-  static const title = "Hiragana/ひらがな";
+  static const title = "Dakuon Hiragana/ひらがな";
 
   @override
   State<DakuonHiaraganaChart> createState() => _DakuonHiaraganaChartState();
@@ -17,7 +17,7 @@ class _DakuonHiaraganaChartState extends State<DakuonHiaraganaChart> {
   @override
   Future<void> readJson() async {
     final String response =
-        await rootBundle.loadString('data/hiragana_characters.json');
+        await rootBundle.loadString('data/dakuon_hiragana.json');
     final data = await json.decode(response);
     setState(() {
       items = data;
