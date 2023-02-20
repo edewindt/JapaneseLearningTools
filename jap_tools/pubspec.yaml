@@ -66,6 +66,7 @@ flutter:
     - data/katakana_characters.json
     - data/hiragana_characters.json
     - data/dakuon_hiragana.json
+    - data/dakuon_katakana.json
     - assets/
   #   - images/a_dot_ham.jpeg
 
