@@ -6,7 +6,7 @@ import 'package:flutter/services.dart';
 
 class DakuonKatakanaChart extends StatefulWidget {
   const DakuonKatakanaChart({super.key});
-  static const title = "Dakuon Hiragana/ひらがな";
+  static const title = "Dakuon Katakana/カタカナ";
 
   @override
   State<DakuonKatakanaChart> createState() => _DakuonKatakanaChartState();

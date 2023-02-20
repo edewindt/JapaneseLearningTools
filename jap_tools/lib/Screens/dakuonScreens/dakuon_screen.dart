@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jap_tools/Screens/dakuonScreens/dakuon_chart_hiragana.dart';
+import 'package:jap_tools/Screens/dakuonScreens/dakuon_chart_katakana.dart';
 import 'package:jap_tools/Screens/hiraganaScreens/flash_cards_normal_hiragana.dart';
 import 'package:jap_tools/Screens/hiraganaScreens/hiragana_chart.dart';
 import 'package:jap_tools/Screens/hiraganaScreens/hiragana_exercises.dart';
@@ -10,7 +11,7 @@ class DakuonScreen extends StatelessWidget {
   DakuonScreen({super.key});
   List<Topic> topics = [
     Topic(name: "Dakuon Chart (Hiragana)", widgetData: DakuonHiaraganaChart()),
-    // Topic(name: "Dakuon Chart (Katakana)", widgetData: HiaraganaChart()),
+    Topic(name: "Dakuon Chart (Katakana)", widgetData: DakuonKatakanaChart()),
     // Topic(name: "Romaji Chart", widgetData: RomajiChart()),
     // Topic(name: "(No Romaji) Chart (Hiragana)", widgetData: NoRomajiChart()),
     // Topic(name: "(No Romaji) Chart (Katakana)", widgetData: NoRomajiChart()),
