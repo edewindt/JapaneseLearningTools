@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 
-class CharacterWidget extends StatelessWidget {
+class RomajiWidget extends StatelessWidget {
   final String title;
   final String sound;
   final double padding;
-  const CharacterWidget(
+  const RomajiWidget(
       {super.key,
       required this.title,
       required this.sound,
@@ -17,7 +17,7 @@ class CharacterWidget extends StatelessWidget {
       splashColor: Colors.red,
       onTap: () async {
         final player = AudioPlayer();
-        player.play(AssetSource(sound + '.mp3'));
+        player.play(AssetSource(title + '.mp3'));
       },
       child: Card(
         child: Center(
