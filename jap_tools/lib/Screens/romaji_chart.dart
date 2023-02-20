@@ -37,8 +37,8 @@ class _RomajiChartState extends State<RomajiChart> {
         children: [
           for (var i in items)
             RomajiWidget(
-              title: i["character"],
-              sound: i["romaji"],
+              title: i["romaji"],
+              sound: i["character"],
               visible: false,
             )
         ],

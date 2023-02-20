@@ -1,18 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:jap_tools/Screens/common_phrases.dart';
-import 'package:jap_tools/Screens/dakuon.dart';
-import 'package:jap_tools/Screens/hiraganaScreens/hiragana_screen.dart';
-import 'package:jap_tools/Screens/japanese_words.dart';
-import 'package:jap_tools/Screens/kanji.dart';
-import 'package:jap_tools/Widgets/card_element.dart';
 import 'package:jap_tools/Widgets/simple_card.dart';
 
 class HiraganaExercises extends StatelessWidget {
   HiraganaExercises({super.key});
   List<Exercise> exercises = [
-    Exercise(name: "Write out each Hiragana 10 Times (Use The Chart)"),
+    Exercise(
+        name:
+            "Write out each Hiragana Individually 10 Times (Use The Chart or Flash Cards)"),
+    Exercise(name: "Write out each Hiragana In Order 10 Times (Use The Chart)"),
+    Exercise(name: "Write out each Hiragana Individually 10 Times From Memory"),
+    Exercise(name: "Write out each Hiragana In Order 10 Times From Memory"),
     Exercise(name: "Read each Hiragana Outloud 10 Times (Use The Chart)"),
-    Exercise(name: "Read as part of Word")
+    Exercise(name: "Read each Hiragana Outloud 10 Times (Without Romaji)"),
+    Exercise(name: "Say each Hiragana In Order Outloud 10 Times From Memory"),
+    Exercise(
+        name:
+            "Say each Hiragana In Order Outloud 10 Times From Memory While Visualizing The Character"),
+    Exercise(name: "Read 15 words using Hiragana (Use Hiragana Words List)")
   ];
   @override
   Widget build(BuildContext context) {
