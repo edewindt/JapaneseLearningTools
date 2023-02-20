@@ -8,6 +8,12 @@ class HiraganaExercises extends StatelessWidget {
         name:
             "Write out each Hiragana Individually 10 Times (Use The Chart or Flash Cards)"),
     Exercise(name: "Write out each Hiragana In Order 10 Times (Use The Chart)"),
+    Exercise(
+        name:
+            "Write out each Hiragana Individually 10 Times (Use The Romaji Chart or Flash Cards(Normal))"),
+    Exercise(
+        name:
+            "Write out each Hiragana In Order 10 Times (Use The Romaji Chart)"),
     Exercise(name: "Write out each Hiragana Individually 10 Times From Memory"),
     Exercise(name: "Write out each Hiragana In Order 10 Times From Memory"),
     Exercise(name: "Read each Hiragana Outloud 10 Times (Use The Chart)"),
@@ -16,7 +22,8 @@ class HiraganaExercises extends StatelessWidget {
     Exercise(
         name:
             "Say each Hiragana In Order Outloud 10 Times From Memory While Visualizing The Character"),
-    Exercise(name: "Read 15 words using Hiragana (Use Hiragana Words List)")
+    Exercise(name: "Read 15 words using Hiragana (Use Hiragana Words List)"),
+    Exercise(name: "Write 15 words From Memory using Hiragana")
   ];
   @override
   Widget build(BuildContext context) {
