@@ -10,7 +10,7 @@ class HiraganaExercises extends StatelessWidget {
     Exercise(name: "Write out each Hiragana In Order 10 Times (Use The Chart)"),
     Exercise(
         name:
-            "Write out each Hiragana Individually 10 Times (Use The Romaji Chart or Flash Cards(Normal))"),
+            "Write out each Hiragana Individually 10 Times (Use The Romaji Chart or Flash Cards(Romaji))"),
     Exercise(
         name:
             "Write out each Hiragana In Order 10 Times (Use The Romaji Chart)"),
@@ -39,7 +39,7 @@ class HiraganaExercises extends StatelessWidget {
         ),
         appBar: AppBar(
           centerTitle: true,
-          title: Text("Japanese Learning Tools"),
+          title: Text("Hiragana Exercises"),
         ));
   }
 }

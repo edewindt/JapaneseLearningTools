@@ -7,7 +7,7 @@ import 'package:jap_tools/Widgets/romanji_widget.dart';
 
 class RomajiChart extends StatefulWidget {
   const RomajiChart({super.key});
-  static const title = "Hiragana/ひらがな";
+  static const title = "Romaji";
 
   @override
   State<RomajiChart> createState() => _RomajiChartState();
