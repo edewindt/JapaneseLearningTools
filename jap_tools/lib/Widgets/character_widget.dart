@@ -5,10 +5,12 @@ class CharacterWidget extends StatelessWidget {
   final String title;
   final String sound;
   final double padding;
+  final bool visible;
   const CharacterWidget(
       {super.key,
       required this.title,
       required this.sound,
+      this.visible = true,
       this.padding = 0.0});
 
   @override
@@ -31,7 +33,7 @@ class CharacterWidget extends StatelessWidget {
                 style: TextStyle(fontSize: 70),
               ),
               Text(
-                sound,
+                visible ? sound : "",
                 style: TextStyle(fontSize: 30),
               ),
             ],

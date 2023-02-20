@@ -81,7 +81,12 @@ class _NoRomajiChartState extends State<NoRomajiChart> {
     return Scaffold(
       body: GridView(
         children: [
-          for (var i in items) CharacterWidget(title: i["character"], sound: "")
+          for (var i in items)
+            CharacterWidget(
+              title: i["character"],
+              sound: i["romaji"],
+              visible: false,
+            )
         ],
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
           maxCrossAxisExtent: 300,
