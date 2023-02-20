@@ -7,16 +7,17 @@ import 'package:flutter/services.dart';
 
 final _random = new Random();
 
-class DakuonHiraganaFlashCards extends StatefulWidget {
-  const DakuonHiraganaFlashCards({super.key});
+class DakuonHiraganaFlashCardsRomaji extends StatefulWidget {
+  const DakuonHiraganaFlashCardsRomaji({super.key});
   static const title = "Hiragana/ひらがな";
 
   @override
-  State<DakuonHiraganaFlashCards> createState() =>
-      _DakuonHiraganaFlashCardsState();
+  State<DakuonHiraganaFlashCardsRomaji> createState() =>
+      _DakuonHiraganaFlashCardsRomajiState();
 }
 
-class _DakuonHiraganaFlashCardsState extends State<DakuonHiraganaFlashCards> {
+class _DakuonHiraganaFlashCardsRomajiState
+    extends State<DakuonHiraganaFlashCardsRomaji> {
   List items = [];
   bool _isLoading = false;
 

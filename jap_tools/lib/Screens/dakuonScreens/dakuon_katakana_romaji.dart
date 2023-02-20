@@ -7,16 +7,17 @@ import 'package:flutter/services.dart';
 
 final _random = new Random();
 
-class DakuonKatakanaFlashCards extends StatefulWidget {
-  const DakuonKatakanaFlashCards({super.key});
+class DakuonKatakanaFlashCardsRomaji extends StatefulWidget {
+  const DakuonKatakanaFlashCardsRomaji({super.key});
   static const title = "Katakana/カタカナ";
 
   @override
-  State<DakuonKatakanaFlashCards> createState() =>
-      _DakuonKatakanaFlashCardsState();
+  State<DakuonKatakanaFlashCardsRomaji> createState() =>
+      _DakuonKatakanaFlashCardsRomajiState();
 }
 
-class _DakuonKatakanaFlashCardsState extends State<DakuonKatakanaFlashCards> {
+class _DakuonKatakanaFlashCardsRomajiState
+    extends State<DakuonKatakanaFlashCardsRomaji> {
   List items = [];
   bool _isLoading = false;
 

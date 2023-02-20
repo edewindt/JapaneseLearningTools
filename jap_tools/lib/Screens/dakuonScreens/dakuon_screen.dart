@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:jap_tools/Screens/dakuonScreens/dakuon_chart_hiragana.dart';
 import 'package:jap_tools/Screens/dakuonScreens/dakuon_chart_katakana.dart';
+import 'package:jap_tools/Screens/dakuonScreens/dakuon_exercises.dart';
 import 'package:jap_tools/Screens/dakuonScreens/dakuon_hiragana_flashcards.dart';
+import 'package:jap_tools/Screens/dakuonScreens/dakuon_hiragana_romaji.dart';
 import 'package:jap_tools/Screens/dakuonScreens/dakuon_katakana_flashcards.dart';
+import 'package:jap_tools/Screens/dakuonScreens/dakuon_katakana_romaji.dart';
 import 'package:jap_tools/Screens/dakuonScreens/dakuon_romaji_chart.dart';
 import 'package:jap_tools/Screens/hiraganaScreens/flash_cards_normal_hiragana.dart';
 import 'package:jap_tools/Screens/hiraganaScreens/hiragana_chart.dart';
@@ -23,14 +26,18 @@ class DakuonScreen extends StatelessWidget {
         name: "(No Romaji) Chart (Katakana)",
         widgetData: NoRomajiChartKatakana()),
     Topic(
-        name: "Flashcards (Hiragana Romaji)",
+        name: "Flashcards (Hiragana Dakuon)",
         widgetData: DakuonHiraganaFlashCards()),
     Topic(
-        name: "Flashcards (Katakana Romaji)",
+        name: "Flashcards (Katakana Dakuon)",
         widgetData: DakuonKatakanaFlashCards()),
-    // Topic(name: "Flashcards (Hiragana Dakuon)", widgetData: FlashCardsNormal()),
-    // Topic(name: "Flashcards (Katakana Dakuon)", widgetData: FlashCardsNormal()),
-    // Topic(name: "Exercises", widgetData: HiraganaExercises())
+    Topic(
+        name: "Flashcards (Hiragana Romaji)",
+        widgetData: DakuonHiraganaFlashCardsRomaji()),
+    Topic(
+        name: "Flashcards (Katakana Romaji)",
+        widgetData: DakuonKatakanaFlashCardsRomaji()),
+    Topic(name: "Exercises", widgetData: DakuonExercises())
   ];
   @override
   Widget build(BuildContext context) {
