@@ -5,14 +5,14 @@ import 'package:jap_tools/Screens/hiraganaScreens/hiragana_screen.dart';
 import 'package:jap_tools/Screens/japanese_words.dart';
 import 'package:jap_tools/Screens/kanji.dart';
 import 'package:jap_tools/Widgets/card_element.dart';
+import 'package:jap_tools/Widgets/simple_card.dart';
 
 class HiraganaExercises extends StatelessWidget {
   HiraganaExercises({super.key});
-  List<Topic> topics = [
-    Topic(name: "Random Exercises", widgetData: CommonPhrasesScreen()),
-    Topic(name: "Write 10 Times", widgetData: CommonPhrasesScreen()),
-    Topic(name: "Repeat Outloud 10 Times", widgetData: CommonPhrasesScreen()),
-    Topic(name: "Read as part of Word", widgetData: CommonPhrasesScreen())
+  List<Exercise> exercises = [
+    Exercise(name: "Write out each Hiragana 10 Times (Use The Chart)"),
+    Exercise(name: "Read each Hiragana Outloud 10 Times (Use The Chart)"),
+    Exercise(name: "Read as part of Word")
   ];
   @override
   Widget build(BuildContext context) {
@@ -22,11 +22,7 @@ class HiraganaExercises extends StatelessWidget {
             constraints: BoxConstraints(maxWidth: 1024),
             margin: EdgeInsets.only(top: 40),
             child: ListView(children: [
-              for (var i in topics)
-                CardElement(
-                  textData: i.name,
-                  destination: i.widgetData,
-                )
+              for (var i in exercises) SimpleCard(textData: i.name)
             ]),
           ),
         ),
@@ -37,8 +33,7 @@ class HiraganaExercises extends StatelessWidget {
   }
 }
 
-class Topic {
+class Exercise {
   final String name;
-  final Widget widgetData;
-  Topic({required this.name, required this.widgetData});
+  Exercise({required this.name});
 }
