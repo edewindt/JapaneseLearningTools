@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:jap_tools/Screens/common_phrases.dart';
-import 'package:jap_tools/Screens/dakuon.dart';
 import 'package:jap_tools/Screens/hiraganaScreens/hiragana_screen.dart';
 import 'package:jap_tools/Screens/japanese_words.dart';
 import 'package:jap_tools/Screens/kanji.dart';

@@ -14,8 +14,8 @@ class KatakanaScreen extends StatelessWidget {
     Topic(name: "Katakana Chart", widgetData: KatakanaChart()),
     Topic(name: "Romaji Chart", widgetData: RomajiChart()),
     Topic(name: "(No Romaji) Chart", widgetData: NoRomajiChart()),
-    Topic(name: "Flashcards (Romaji)", widgetData: FlashCards()),
-    Topic(name: "Flashcards (Normal)", widgetData: FlashCardsNormal()),
+    Topic(name: "Flashcards (Normal)", widgetData: FlashCards()),
+    Topic(name: "Flashcards (Romaji)", widgetData: FlashCardsNormal()),
     Topic(name: "Exercises", widgetData: KatakanaExercises())
   ];
   @override
