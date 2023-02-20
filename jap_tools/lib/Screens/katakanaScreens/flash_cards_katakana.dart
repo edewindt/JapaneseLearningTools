@@ -9,7 +9,7 @@ final _random = new Random();
 
 class FlashCards extends StatefulWidget {
   const FlashCards({super.key});
-  static const title = "Katakana/カタログ";
+  static const title = "Katakana/カタカナ";
 
   @override
   State<FlashCards> createState() => _FlashCardsState();

@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
   HomeScreen({super.key, required this.toggleDarkmode});
   List<Topic> topics = [
     Topic(name: "Hiragana/ひらがな", widgetData: HiraganaScreen()),
-    Topic(name: "Katakana/カタログ", widgetData: KatakanaScreen()),
+    Topic(name: "Katakana/カタカナ", widgetData: KatakanaScreen()),
     Topic(name: "Dakuon/濁音", widgetData: DakuonScreen()),
     Topic(name: "Kanji/漢字", widgetData: KanjiScreen()),
     Topic(name: "Japanese Words", widgetData: JapaneseWordsScreen()),

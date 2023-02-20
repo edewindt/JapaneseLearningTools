@@ -32,7 +32,7 @@ class KatakanaExercises extends StatelessWidget {
         ),
         appBar: AppBar(
           centerTitle: true,
-          title: Text("Japanese Learning Tools"),
+          title: Text("Katakana Exercises"),
         ));
   }
 }
