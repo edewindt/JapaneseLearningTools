@@ -4,6 +4,7 @@ import 'dart:convert';
 import "dart:math";
 
 import 'package:flutter/services.dart';
+import 'package:jap_tools/Widgets/romanji_widget.dart';
 
 final _random = new Random();
 
@@ -117,7 +118,7 @@ class _FlashCardLogicState extends State<FlashCardLogic> {
           children: [
             Padding(
               padding: const EdgeInsets.all(30.0),
-              child: CharacterWidget(
+              child: RomajiWidget(
                 title: currentCard.hiragana,
                 sound: _spoil ? " " : currentCard.romaji,
                 padding: 30.0,
