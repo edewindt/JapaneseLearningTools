@@ -12,6 +12,7 @@ class HiraganaScreen extends StatelessWidget {
   HiraganaScreen({super.key});
   List<Topic> topics = [
     Topic(name: "Hiragana Chart", widgetData: HiaraganaChart()),
+    Topic(name: "(No Romaji) Chart", widgetData: NoRomajiChart()),
     Topic(name: "Flashcards (Romaji)", widgetData: FlashCards()),
     Topic(name: "Flashcards (Normal)", widgetData: FlashCardsNormal()),
     Topic(name: "Exercises", widgetData: HiraganaExercises()),
