@@ -4,6 +4,7 @@ import 'package:jap_tools/Screens/hiraganaScreens/flash_cards_normal_hiragana.da
 import 'package:jap_tools/Screens/hiraganaScreens/hiragana_chart.dart';
 import 'package:jap_tools/Screens/hiraganaScreens/hiragana_exercises.dart';
 import 'package:jap_tools/Screens/japanese_words.dart';
+import 'package:jap_tools/Screens/romaji_chart.dart';
 import 'package:jap_tools/Widgets/card_element.dart';
 
 import 'flash_cards_hiragana.dart';
@@ -12,6 +13,7 @@ class HiraganaScreen extends StatelessWidget {
   HiraganaScreen({super.key});
   List<Topic> topics = [
     Topic(name: "Hiragana Chart", widgetData: HiaraganaChart()),
+    Topic(name: "Romaji Chart", widgetData: RomajiChart()),
     Topic(name: "(No Romaji) Chart", widgetData: NoRomajiChart()),
     Topic(name: "Flashcards (Romaji)", widgetData: FlashCards()),
     Topic(name: "Flashcards (Normal)", widgetData: FlashCardsNormal()),
