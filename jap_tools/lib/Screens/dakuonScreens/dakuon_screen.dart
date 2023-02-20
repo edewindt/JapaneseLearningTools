@@ -38,7 +38,7 @@ class DakuonScreen extends StatelessWidget {
         ),
         appBar: AppBar(
           centerTitle: true,
-          title: Text("Hiragana Learning Tools"),
+          title: Text("Dakuon Learning Tools"),
         ));
   }
 }
