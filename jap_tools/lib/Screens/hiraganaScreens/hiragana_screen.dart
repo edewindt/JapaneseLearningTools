@@ -15,7 +15,7 @@ class HiraganaScreen extends StatelessWidget {
     Topic(name: "Hiragana Chart", widgetData: HiaraganaChart()),
     Topic(name: "Romaji Chart", widgetData: RomajiChart()),
     Topic(name: "(No Romaji) Chart", widgetData: NoRomajiChart()),
-    Topic(name: "Flashcards (Romaji)", widgetData: FlashCards()),
+    Topic(name: "Flashcards (Hiragana)", widgetData: FlashCards()),
     Topic(name: "Flashcards (Normal)", widgetData: FlashCardsNormal()),
     Topic(name: "Exercises", widgetData: HiraganaExercises()),
     Topic(name: "Test Proficiency", widgetData: CommonPhrasesScreen())

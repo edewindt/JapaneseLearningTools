@@ -112,7 +112,7 @@ class _FlashCardLogicState extends State<FlashCardLogic> {
     return Center(
       child: Container(
         constraints: BoxConstraints(maxWidth: 1024),
-        child: Column(
+        child: ListView(
           children: [
             Padding(
               padding: const EdgeInsets.all(30.0),
