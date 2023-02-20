@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:jap_tools/Screens/dakuonScreens/dakuon_chart_hiragana.dart';
 import 'package:jap_tools/Screens/dakuonScreens/dakuon_chart_katakana.dart';
+import 'package:jap_tools/Screens/dakuonScreens/dakuon_hiragana_flashcards.dart';
+import 'package:jap_tools/Screens/dakuonScreens/dakuon_katakana_flashcards.dart';
+import 'package:jap_tools/Screens/dakuonScreens/dakuon_romaji_chart.dart';
 import 'package:jap_tools/Screens/hiraganaScreens/flash_cards_normal_hiragana.dart';
 import 'package:jap_tools/Screens/hiraganaScreens/hiragana_chart.dart';
 import 'package:jap_tools/Screens/hiraganaScreens/hiragana_exercises.dart';
@@ -12,11 +15,19 @@ class DakuonScreen extends StatelessWidget {
   List<Topic> topics = [
     Topic(name: "Dakuon Chart (Hiragana)", widgetData: DakuonHiaraganaChart()),
     Topic(name: "Dakuon Chart (Katakana)", widgetData: DakuonKatakanaChart()),
-    // Topic(name: "Romaji Chart", widgetData: RomajiChart()),
-    // Topic(name: "(No Romaji) Chart (Hiragana)", widgetData: NoRomajiChart()),
-    // Topic(name: "(No Romaji) Chart (Katakana)", widgetData: NoRomajiChart()),
-    // Topic(name: "Flashcards (Hiragana Romaji)", widgetData: FlashCards()),
-    // Topic(name: "Flashcards (Katakana Romaji)", widgetData: FlashCards()),
+    Topic(name: "Dakuon Romaji Chart", widgetData: DakuonRomajiChart()),
+    Topic(
+        name: "(No Romaji) Chart (Hiragana)",
+        widgetData: NoRomajiChartHiragana()),
+    Topic(
+        name: "(No Romaji) Chart (Katakana)",
+        widgetData: NoRomajiChartKatakana()),
+    Topic(
+        name: "Flashcards (Hiragana Romaji)",
+        widgetData: DakuonHiraganaFlashCards()),
+    Topic(
+        name: "Flashcards (Katakana Romaji)",
+        widgetData: DakuonKatakanaFlashCards()),
     // Topic(name: "Flashcards (Hiragana Dakuon)", widgetData: FlashCardsNormal()),
     // Topic(name: "Flashcards (Katakana Dakuon)", widgetData: FlashCardsNormal()),
     // Topic(name: "Exercises", widgetData: HiraganaExercises())

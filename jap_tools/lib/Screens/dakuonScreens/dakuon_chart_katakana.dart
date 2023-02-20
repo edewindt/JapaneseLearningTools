@@ -51,20 +51,20 @@ class _DakuonKatakanaChartState extends State<DakuonKatakanaChart> {
   }
 }
 
-class NoRomajiChart extends StatefulWidget {
-  const NoRomajiChart({super.key});
+class NoRomajiChartKatakana extends StatefulWidget {
+  const NoRomajiChartKatakana({super.key});
   static const title = "Hiragana/ひらがな";
 
   @override
-  State<NoRomajiChart> createState() => _NoRomajiChartState();
+  State<NoRomajiChartKatakana> createState() => _NoRomajiChartKatakanaState();
 }
 
-class _NoRomajiChartState extends State<NoRomajiChart> {
+class _NoRomajiChartKatakanaState extends State<NoRomajiChartKatakana> {
   List items = [];
   @override
   Future<void> readJson() async {
     final String response =
-        await rootBundle.loadString('data/hiragana_characters.json');
+        await rootBundle.loadString('data/dakuon_katakana.json');
     final data = await json.decode(response);
     setState(() {
       items = data;
@@ -96,7 +96,7 @@ class _NoRomajiChartState extends State<NoRomajiChart> {
       ),
       appBar: AppBar(
         centerTitle: true,
-        title: const Text(NoRomajiChart.title),
+        title: const Text(NoRomajiChartKatakana.title),
       ),
     );
   }
