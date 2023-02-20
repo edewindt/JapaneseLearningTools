@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:jap_tools/Screens/common_phrases.dart';
 import 'package:jap_tools/Screens/katakanaScreens/flash_cards_normal_katakana.dart';
+import 'package:jap_tools/Screens/romaji_chart.dart';
 import 'package:jap_tools/Widgets/card_element.dart';
 
 import 'flash_cards_katakana.dart';
@@ -11,10 +12,11 @@ class KatakanaScreen extends StatelessWidget {
   KatakanaScreen({super.key});
   List<Topic> topics = [
     Topic(name: "Katakana Chart", widgetData: KatakanaChart()),
+    Topic(name: "Romaji Chart", widgetData: RomajiChart()),
+    Topic(name: "(No Romaji) Chart", widgetData: NoRomajiChart()),
     Topic(name: "Flashcards (Romaji)", widgetData: FlashCards()),
     Topic(name: "Flashcards (Normal)", widgetData: FlashCardsNormal()),
-    Topic(name: "Exercises", widgetData: KatakanaExercises()),
-    Topic(name: "Test Proficiency", widgetData: CommonPhrasesScreen())
+    Topic(name: "Exercises", widgetData: KatakanaExercises())
   ];
   @override
   Widget build(BuildContext context) {
