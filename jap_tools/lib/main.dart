@@ -1,8 +1,17 @@
+import 'dart:io';
+
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
 import 'package:jap_tools/Screens/home_screen.dart';
 
-void main() {
+void main() async {
+  var path = Directory.current.path;
+  Hive..init(path);
+  Box box = await Hive.openBox('test');
+  box.put('hello', 'hello');
+  var test = box.get('hello');
+  print(test);
   runApp(MyApp());
 }
 
