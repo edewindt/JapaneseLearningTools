@@ -36,6 +36,7 @@ class DakuonExercises extends StatelessWidget {
                 SimpleCard(
                   textData: exercises[i].name,
                   index: i,
+                  prefix: "dak",
                 )
             ]),
           ),

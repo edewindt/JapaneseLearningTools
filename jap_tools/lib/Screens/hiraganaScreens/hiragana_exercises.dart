@@ -39,6 +39,7 @@ class HiraganaExercises extends StatelessWidget {
                 SimpleCard(
                   textData: exercises[i].name,
                   index: i,
+                  prefix: "hir",
                 )
             ]),
           ),

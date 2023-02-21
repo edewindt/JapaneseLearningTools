@@ -37,6 +37,7 @@ class KatakanaExercises extends StatelessWidget {
                 SimpleCard(
                   textData: topics[i].name,
                   index: i,
+                  prefix: "kat",
                 )
             ]),
           ),

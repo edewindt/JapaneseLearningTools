@@ -4,10 +4,12 @@ import 'package:hive_flutter/hive_flutter.dart';
 class SimpleCard extends StatefulWidget {
   final String textData;
   final int index;
+  final String prefix;
   SimpleCard({
     super.key,
     required this.textData,
     required this.index,
+    required this.prefix,
   });
 
   @override
@@ -18,13 +20,13 @@ class _SimpleCardState extends State<SimpleCard> {
   bool checked = false;
   Box box = Hive.box('store');
   getBoxValue() async {
-    String seeval = await box.get(widget.index.toString());
+    String seeval = await box.get(widget.prefix + widget.index.toString());
     if (seeval == "true") {
       setState(() {
         checked = true;
       });
     } else {
-      box.put(widget.index.toString(), "false");
+      box.put(widget.prefix + widget.index.toString(), "false");
     }
     return seeval;
   }
@@ -48,7 +50,8 @@ class _SimpleCardState extends State<SimpleCard> {
                     fillColor: MaterialStatePropertyAll(Colors.red),
                     value: checked,
                     onChanged: (value) {
-                      box.put(widget.index.toString(), value.toString());
+                      box.put(widget.prefix + widget.index.toString(),
+                          value.toString());
                       setState(() {
                         checked = value as bool;
                       });
