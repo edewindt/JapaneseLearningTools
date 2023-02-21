@@ -15,14 +15,26 @@ class SimpleCard extends StatefulWidget {
 }
 
 class _SimpleCardState extends State<SimpleCard> {
+  bool checked = false;
   Box box = Hive.box('store');
+  getBoxValue() async {
+    String seeval = await box.get(widget.index.toString());
+    if (seeval == "true") {
+      setState(() {
+        checked = true;
+      });
+    } else {
+      box.put(widget.index.toString(), "false");
+    }
+    return seeval;
+  }
+
   @override
   void initState() {
-    box.putAt(widget.index, "false");
+    getBoxValue();
     super.initState();
   }
 
-  bool checked = false;
   Widget build(BuildContext context) {
     return Opacity(
       opacity: checked ? .5 : 1,
@@ -36,6 +48,7 @@ class _SimpleCardState extends State<SimpleCard> {
                     fillColor: MaterialStatePropertyAll(Colors.red),
                     value: checked,
                     onChanged: (value) {
+                      box.put(widget.index.toString(), value.toString());
                       setState(() {
                         checked = value as bool;
                       });
