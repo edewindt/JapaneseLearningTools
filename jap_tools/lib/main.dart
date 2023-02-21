@@ -2,12 +2,11 @@ import 'dart:io';
 
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:jap_tools/Screens/home_screen.dart';
 
 void main() async {
-  var path = Directory.current.path;
-  Hive..init(path);
+  await Hive.initFlutter();
   Box box = await Hive.openBox('store');
   runApp(MyApp());
 }
