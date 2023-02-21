@@ -8,10 +8,7 @@ import 'package:jap_tools/Screens/home_screen.dart';
 void main() async {
   var path = Directory.current.path;
   Hive..init(path);
-  Box box = await Hive.openBox('test');
-  box.put('hello', 'hello');
-  var test = box.get('hello');
-  print(test);
+  Box box = await Hive.openBox('store');
   runApp(MyApp());
 }
 
@@ -24,13 +21,38 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   bool darkmode = false;
+  Box box = Hive.box('store');
   void darkmodeToggle() {
     setState(() {
-      darkmode = !darkmode;
+      if (darkmode) {
+        box.put('darkmode', 'false');
+        darkmode = !darkmode;
+        print(darkmode);
+      } else {
+        box.put('darkmode', 'true');
+        darkmode = !darkmode;
+        print(darkmode);
+      }
+    });
+  }
+
+  void determineMode() async {
+    var mode = await box.get('darkmode');
+    setState(() {
+      if (mode == 'true') {
+        darkmode = true;
+      } else {
+        darkmode = false;
+      }
     });
   }
 
   @override
+  void initState() {
+    determineMode();
+    super.initState();
+  }
+
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: FlexThemeData.light(
