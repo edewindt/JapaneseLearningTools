@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 
 class SimpleCard extends StatefulWidget {
   final String textData;
+  final int index;
   SimpleCard({
     super.key,
     required this.textData,
+    required this.index,
   });
 
   @override
@@ -12,7 +15,13 @@ class SimpleCard extends StatefulWidget {
 }
 
 class _SimpleCardState extends State<SimpleCard> {
+  Box box = Hive.box('store');
   @override
+  void initState() {
+    box.putAt(widget.index, "false");
+    super.initState();
+  }
+
   bool checked = false;
   Widget build(BuildContext context) {
     return Opacity(

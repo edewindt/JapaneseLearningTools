@@ -1,9 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:jap_tools/Screens/common_phrases.dart';
-import 'package:jap_tools/Screens/hiraganaScreens/hiragana_screen.dart';
-import 'package:jap_tools/Screens/japanese_words.dart';
-import 'package:jap_tools/Screens/kanji.dart';
-import 'package:jap_tools/Widgets/card_element.dart';
 import 'package:jap_tools/Widgets/simple_card.dart';
 
 class KatakanaExercises extends StatelessWidget {
@@ -38,9 +33,10 @@ class KatakanaExercises extends StatelessWidget {
             constraints: BoxConstraints(maxWidth: 1024),
             margin: EdgeInsets.only(top: 40),
             child: ListView(children: [
-              for (var i in topics)
+              for (var i = 0; i < topics.length; i++)
                 SimpleCard(
-                  textData: i.name,
+                  textData: topics[i].name,
+                  index: i,
                 )
             ]),
           ),

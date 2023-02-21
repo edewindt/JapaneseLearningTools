@@ -32,7 +32,11 @@ class DakuonExercises extends StatelessWidget {
             constraints: BoxConstraints(maxWidth: 1024),
             margin: EdgeInsets.only(top: 40),
             child: ListView(children: [
-              for (var i in exercises) SimpleCard(textData: i.name)
+              for (var i = 0; i < exercises.length; i++)
+                SimpleCard(
+                  textData: exercises[i].name,
+                  index: i,
+                )
             ]),
           ),
         ),
