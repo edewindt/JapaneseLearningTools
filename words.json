@@ -212,13 +212,13 @@
 {"romaji":"boushi", "gana":"ぼうし","translation":"Hat"},
 {"romaji":"kasa", "gana":"かさ","translation":"Umbrella"},
 {"romaji":"taberu", "gana":"たべる","translation":"Eat"},
-{"romaji":"kooto", "gana":"たべる","translation":"Eat"},
-{"romaji":"omoshiroi", "gana":"たべる","translation":""},
-{"romaji":"doitsu", "gana":"たべる","translation":""},
-{"romaji":"shika", "gana":"たべる","translation":""},
-{"romaji":"okashi", "gana":"たべる","translation":""},
-{"romaji":"kusai", "gana":"たべる","translation":""},
-{"romaji":"sakai", "gana":"たべる","translation":""},
-{"romaji":"sukoshi", "gana":"たべる","translation":""},
-{"romaji":"suika", "gana":"たべる","translation":""}
+{"romaji":"kooto", "gana":"コート","translation":"Coat"},
+{"romaji":"omoshiroi", "gana":"おもしろい","translation":"Funny"},
+{"romaji":"doitsu", "gana":"ドイツ","translation":"Germany"},
+{"romaji":"shika", "gana":"しか","translation":"Deer"},
+{"romaji":"okashi", "gana":"おかし","translation":"Sweets"},
+{"romaji":"kusai", "gana":"くさい","translation":"Odor/Smelly"},
+{"romaji":"sakai", "gana":"さかい","translation":"Border/Boundary"},
+{"romaji":"sukoshi", "gana":"すこし","translation":"A Little"},
+{"romaji":"suika", "gana":"","translation":"Watermelon"}
 ]
