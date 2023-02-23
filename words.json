@@ -220,5 +220,12 @@
 {"romaji":"kusai", "gana":"くさい","translation":"Odor/Smelly"},
 {"romaji":"sakai", "gana":"さかい","translation":"Border/Boundary"},
 {"romaji":"sukoshi", "gana":"すこし","translation":"A Little"},
-{"romaji":"suika", "gana":"","translation":"Watermelon"}
-]
+{"romaji":"suika", "gana":"すいか","translation":"Watermelon"},
+{"romaji":"ima", "gana":"いま","translation":"Now"},
+{"romaji":"nanji", "gana":"なんじ","translation":"What Time?"},
+{"romaji":"han", "gana":"はん","translation":"Thirty"},
+{"romaji":"goro", "gana":"ごろ","translation":"About/Nearly"},
+{"romaji":"koukou", "gana":"こうこう","translation":"Highschool"},
+{"romaji":"kuukou", "gana":"くうこう","translation":"Airport"},
+{"romaji":"chikatetsu", "gana":"ちかてつ","translation":"Subway"},
+{"romaji":"kippu", "gana":"きっぷ","translation":"Ticket"}]
