@@ -211,5 +211,14 @@
 {"romaji":"mekishiko", "gana":"メキシコ","translation":"Mexico"},
 {"romaji":"boushi", "gana":"ぼうし","translation":"Hat"},
 {"romaji":"kasa", "gana":"かさ","translation":"Umbrella"},
-{"romaji":"taberu", "gana":"たべる","translation":"Eat"}
+{"romaji":"taberu", "gana":"たべる","translation":"Eat"},
+{"romaji":"kooto", "gana":"たべる","translation":"Eat"},
+{"romaji":"omoshiroi", "gana":"たべる","translation":""},
+{"romaji":"doitsu", "gana":"たべる","translation":""},
+{"romaji":"shika", "gana":"たべる","translation":""},
+{"romaji":"okashi", "gana":"たべる","translation":""},
+{"romaji":"kusai", "gana":"たべる","translation":""},
+{"romaji":"sakai", "gana":"たべる","translation":""},
+{"romaji":"sukoshi", "gana":"たべる","translation":""},
+{"romaji":"suika", "gana":"たべる","translation":""}
 ]
