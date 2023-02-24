@@ -228,4 +228,13 @@
 {"romaji":"koukou", "gana":"こうこう","translation":"Highschool"},
 {"romaji":"kuukou", "gana":"くうこう","translation":"Airport"},
 {"romaji":"chikatetsu", "gana":"ちかてつ","translation":"Subway"},
-{"romaji":"kippu", "gana":"きっぷ","translation":"Ticket"}]
+{"romaji":"chizu", "gana":"","translation":""},
+{"romaji":"pasupooto", "gana":"","translation":""},
+{"romaji":"sumaho", "gana":"","translation":""},
+{"romaji":"kaban", "gana":"","translation":""},
+{"romaji":"toukyou", "gana":"","translation":""},
+{"romaji":"kyouto", "gana":"","translation":""},
+{"romaji":"onamaewa", "gana":"","translation":""},
+{"romaji":"namae", "gana":"きっぷ","translation":""},
+{"romaji":"shusshin", "gana":"きっぷ","translation":""}
+]
