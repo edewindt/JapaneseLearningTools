@@ -228,13 +228,13 @@
 {"romaji":"koukou", "gana":"こうこう","translation":"Highschool"},
 {"romaji":"kuukou", "gana":"くうこう","translation":"Airport"},
 {"romaji":"chikatetsu", "gana":"ちかてつ","translation":"Subway"},
-{"romaji":"chizu", "gana":"","translation":""},
-{"romaji":"pasupooto", "gana":"","translation":""},
-{"romaji":"sumaho", "gana":"","translation":""},
-{"romaji":"kaban", "gana":"","translation":""},
-{"romaji":"toukyou", "gana":"","translation":""},
-{"romaji":"kyouto", "gana":"","translation":""},
-{"romaji":"onamaewa", "gana":"","translation":""},
-{"romaji":"namae", "gana":"きっぷ","translation":""},
-{"romaji":"shusshin", "gana":"きっぷ","translation":""}
+{"romaji":"chizu", "gana":"","translation":"Map"},
+{"romaji":"pasupooto", "gana":"","translation":"Passport"},
+{"romaji":"sumaho", "gana":"","translation":"Smartphone"},
+{"romaji":"kaban", "gana":"","translation":"Bag/Basket"},
+{"romaji":"toukyou", "gana":"","translation":"Tokyo"},
+{"romaji":"kyouto", "gana":"","translation":"Kyoto"},
+{"romaji":"onamaewa", "gana":"","translation":"What Is Your Name?"},
+{"romaji":"namae", "gana":"","translation":"Name"},
+{"romaji":"shusshin", "gana":"","translation":"From"}
 ]
