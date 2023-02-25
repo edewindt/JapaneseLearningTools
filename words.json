@@ -237,10 +237,10 @@
 {"romaji":"onamaewa", "gana":"おなまえは","translation":"What Is Your Name?"},
 {"romaji":"namae", "gana":"なまえ","translation":"Name"},
 {"romaji":"shusshin", "gana":"しゅっしん","translation":"From"},
-{"romaji":"mo", "gana":"しゅっしん","translation":"Also"},
-{"romaji":"nisundeimasu", "gana":"しゅっしん","translation":"Live"},
-{"romaji":"toshi", "gana":"しゅっしん","translation":"City"},
-{"romaji":"dou", "gana":"しゅっしん","translation":"How"},
-{"romaji":"nigiyaka", "gana":"しゅっしん","translation":"Lively"},
-{"romaji":"shizuka", "gana":"しゅっしん","translation":"Quiet"}
+{"romaji":"mo", "gana":"も","translation":"Also"},
+{"romaji":"nisundeimasu", "gana":"にすんでいます","translation":"Live"},
+{"romaji":"toshi", "gana":"とし","translation":"City"},
+{"romaji":"dou", "gana":"どう","translation":"How"},
+{"romaji":"nigiyaka", "gana":"にぎやか","translation":"Lively"},
+{"romaji":"shizuka", "gana":"しずか","translation":"Quiet"}
 ]
