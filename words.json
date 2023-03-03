@@ -242,10 +242,10 @@
 {"romaji":"toshi", "gana":"とし","translation":"City"},
 {"romaji":"dou", "gana":"どう","translation":"How"},
 {"romaji":"nigiyaka", "gana":"にぎやか","translation":"Lively"},
-{"romaji":"shizuka", "gana":"しずか","translation":"Quiet"}
-{"romaji":"kirei", "gana":"きれい","translation":""}
-{"romaji":"totemo", "gana":"とても","translation":""}
-{"romaji":"machi", "gana":"まち","translation":""}
-{"romaji":"sugoi", "gana":"すごい","translation":""}
-{"romaji":"jya matta", "gana":"じゃまった","translation":""}
+{"romaji":"shizuka", "gana":"しずか","translation":"Quiet"},
+{"romaji":"kirei", "gana":"きれい","translation":"Clean"},
+{"romaji":"totemo", "gana":"とても","translation":"Very"},
+{"romaji":"machi", "gana":"まち","translation":"Town"},
+{"romaji":"sugoi", "gana":"すごい","translation":"Incredible"},
+{"romaji":"jya matta", "gana":"じゃまった","translation":"See You Later"}
 ]
