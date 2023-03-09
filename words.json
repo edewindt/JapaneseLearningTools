@@ -247,5 +247,10 @@
 {"romaji":"totemo", "gana":"とても","translation":"Very"},
 {"romaji":"machi", "gana":"まち","translation":"Town"},
 {"romaji":"sugoi", "gana":"すごい","translation":"Incredible"},
-{"romaji":"jya matta", "gana":"じゃまった","translation":"See You Later"}
+{"romaji":"jya matta", "gana":"じゃまった","translation":"See You Later"},
+{"romaji":"sayounara", "gana":"","translation":""},
+{"romaji":"shitsurei", "gana":"","translation":""},
+{"romaji":"takai", "gana":"","translation":""},
+{"romaji":"taiko", "gana":"","translation":""},
+{"romaji":"suteki", "gana":"","translation":""}
 ]
