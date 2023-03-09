@@ -248,10 +248,10 @@
 {"romaji":"machi", "gana":"まち","translation":"Town"},
 {"romaji":"sugoi", "gana":"すごい","translation":"Incredible"},
 {"romaji":"jya matta", "gana":"じゃまった","translation":"See You Later"},
-{"romaji":"sayounara", "gana":"","translation":"Goodbye"},
-{"romaji":"shitsurei shimasu", "gana":"","translation":"Excuse My Absence/GoodBye"},
-{"romaji":"shitsurei", "gana":"","translation":"Impoliteness"},
-{"romaji":"takai", "gana":"","translation":"Expensive"},
-{"romaji":"taiko", "gana":"","translation":"Drum"},
-{"romaji":"suteki", "gana":"","translation":"Lovely/Splendid"}
+{"romaji":"sayounara", "gana":"さようなら","translation":"Goodbye"},
+{"romaji":"shitsurei shimasu", "gana":"しつれい","translation":"Excuse My Absence/GoodBye"},
+{"romaji":"shitsurei", "gana":"しつれい","translation":"Impoliteness"},
+{"romaji":"takai", "gana":"たかい","translation":"Expensive"},
+{"romaji":"taiko", "gana":"たいこ","translation":"Drum"},
+{"romaji":"suteki", "gana":"すてき","translation":"Lovely/Splendid"}
 ]
