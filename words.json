@@ -255,12 +255,12 @@
 {"romaji":"suteki", "gana":"すてき","translation":"Lovely/Splendid"},
 {"romaji":"tokai", "gana":"とかい","translation":"Big City"},
 {"romaji":"wakarimasu", "gana":"わかります","translation":"Understand"},
-{"romaji":"eigo", "gana":"","translation":""},
-{"romaji":"wakarimasen", "gana":"","translation":""},
-{"romaji":"americanokata", "gana":"","translation":""},
-{"romaji":"ii", "gana":"","translation":""},
-{"romaji":"otenki", "gana":"","translation":""},
-{"romaji":"jozu", "gana":"","translation":""},
-{"romaji":"arimasen", "gana":"","translation":""},
-{"romaji":"kazoku", "gana":"","translation":""}
+{"romaji":"eigo", "gana":"","translation":"English"},
+{"romaji":"wakarimasen", "gana":"","translation":"Don't Understand"},
+{"romaji":"americanokata", "gana":"","translation":"American Person"},
+{"romaji":"ii", "gana":"","translation":"Good"},
+{"romaji":"otenki", "gana":"","translation":"Weather"},
+{"romaji":"jozu", "gana":"","translation":"Skilled"},
+{"romaji":"arimasen", "gana":"","translation":"Not"},
+{"romaji":"kazoku", "gana":"","translation":"Family"}
 ]
