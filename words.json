@@ -262,5 +262,8 @@
 {"romaji":"otenki", "gana":"おてんき","translation":"Weather"},
 {"romaji":"jozu", "gana":"じょず","translation":"Skilled"},
 {"romaji":"arimasen", "gana":"ありません","translation":"Not"},
-{"romaji":"kazoku", "gana":"かぞく","translation":"Family"}
+{"romaji":"", "gana":"かぞく","translation":""},
+{"romaji":"kazoku", "gana":"","translation":""},
+{"romaji":"kazoku", "gana":"","translation":""},
+{"romaji":"kazoku", "gana":"","translation":""}
 ]
