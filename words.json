@@ -269,9 +269,9 @@
 {"romaji":"ane", "gana":"あね","translation":"Older Sister"},
 {"romaji":"kashain", "gana":"かしゃいん","translation":"Office Worker"},
 {"romaji":"sai", "gana":"さい","translation":"Old"}
-{"romaji":"imouto", "gana":"","translation":"Younger Sister"},
-{"romaji":"demo", "gana":"","translation":"But"},
-{"romaji":"mada", "gana":"","translation":"Not Yet"},
-{"romaji":"yoku", "gana":"","translation":"Well/Often"},
-{"romaji":"iyana", "gana":"","translation":"Unpleasant"}
+{"romaji":"imouto", "gana":"いもうと","translation":"Younger Sister"},
+{"romaji":"demo", "gana":"でも","translation":"But"},
+{"romaji":"mada", "gana":"まだ","translation":"Not Yet"},
+{"romaji":"yoku", "gana":"よく","translation":"Well/Often"},
+{"romaji":"iyana", "gana":"いやな","translation":"Unpleasant"}
 ]
