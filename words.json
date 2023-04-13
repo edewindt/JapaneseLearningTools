@@ -273,5 +273,8 @@
 {"romaji":"demo", "gana":"でも","translation":"But"},
 {"romaji":"mada", "gana":"まだ","translation":"Not Yet"},
 {"romaji":"yoku", "gana":"よく","translation":"Well/Often"},
-{"romaji":"iyana", "gana":"いやな","translation":"Unpleasant"}
+{"romaji":"iyana", "gana":"いやな","translation":"Unpleasant"},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""}
 ]
