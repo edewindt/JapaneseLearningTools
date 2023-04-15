@@ -276,5 +276,8 @@
 {"romaji":"iyana", "gana":"いやな","translation":"Unpleasant"},
 {"romaji":"jozu", "gana":"じょず","translation":"Well"},
 {"romaji":"doumo", "gana":"どうも","translation":"Very Much"},
-{"romaji":"madamadadesu", "gana":"まだまだです","translation":"Still a Ways To Go"}
+{"romaji":"madamadadesu", "gana":"まだまだです","translation":"Still a Ways To Go"},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""}
 ]
