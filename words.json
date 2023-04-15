@@ -277,7 +277,7 @@
 {"romaji":"jozu", "gana":"じょず","translation":"Well"},
 {"romaji":"doumo", "gana":"どうも","translation":"Very Much"},
 {"romaji":"madamadadesu", "gana":"まだまだです","translation":"Still a Ways To Go"},
-{"romaji":"sakana", "gana":"","translation":"Fish"},
-{"romaji":"inu", "gana":"","translation":"Dog"},
-{"romaji":"neko", "gana":"","translation":"Cat"}
+{"romaji":"sakana", "gana":"さかな","translation":"Fish"},
+{"romaji":"inu", "gana":"いぬ","translation":"Dog"},
+{"romaji":"neko", "gana":"ねこ","translation":"Cat"}
 ]
