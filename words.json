@@ -279,5 +279,8 @@
 {"romaji":"madamadadesu", "gana":"まだまだです","translation":"Still a Ways To Go"},
 {"romaji":"sakana", "gana":"さかな","translation":"Fish"},
 {"romaji":"inu", "gana":"いぬ","translation":"Dog"},
-{"romaji":"neko", "gana":"ねこ","translation":"Cat"}
+{"romaji":"neko", "gana":"ねこ","translation":"Cat"},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""}
 ]
