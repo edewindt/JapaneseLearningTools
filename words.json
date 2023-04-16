@@ -280,7 +280,7 @@
 {"romaji":"sakana", "gana":"さかな","translation":"Fish"},
 {"romaji":"inu", "gana":"いぬ","translation":"Dog"},
 {"romaji":"neko", "gana":"ねこ","translation":"Cat"},
-{"romaji":"ani", "gana":"","translation":"Older Brother"},
-{"romaji":"kangoshi", "gana":"","translation":"Nurse"},
-{"romaji":"urusai", "gana":"","translation":"Noisy"}
+{"romaji":"ani", "gana":"あに","translation":"Older Brother"},
+{"romaji":"kangoshi", "gana":"かんごし","translation":"Nurse"},
+{"romaji":"urusai", "gana":"うるさい","translation":"Noisy"}
 ]
