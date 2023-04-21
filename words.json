@@ -286,10 +286,10 @@
 {"romaji":"yuumei", "gana":"ゆうめい","translation":"Famous"},
 {"romaji":"musume", "gana":"むすめ","translation":"Daughter"},
 {"romaji":"musuko", "gana":"むすこ","translation":"Son"},
-{"romaji":"tsuma", "gana":"つま","translation":"My Wife"},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""}
+{"romaji":"tsuma", "gana":"つま","translation":"Wife"},
+{"romaji":"oshare", "gana":"おしゃれ","translation":"Fashionable"},
+{"romaji":"atamagaii", "gana":"あたまがいい","translation":"Smart"},
+{"romaji":"otto", "gana":"おっと","translation":"Husband"},
+{"romaji":"chichi", "gana":"ちち","translation":"Father/Dad"},
+{"romaji":"terebi", "gana":"テレビ","translation":"Television"}
 ]
