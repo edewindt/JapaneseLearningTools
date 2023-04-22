@@ -272,7 +272,7 @@
 {"romaji":"imouto", "gana":"いもうと","translation":"Younger Sister"},
 {"romaji":"demo", "gana":"でも","translation":"But"},
 {"romaji":"mada", "gana":"まだ","translation":"Not Yet"},
-{"romaji":"yoku", "gana":"よく","translation":"Well/Often"},
+{"romaji":"yoku", "gana":"よく","translation":"Often"},
 {"romaji":"iyana", "gana":"いやな","translation":"Unpleasant"},
 {"romaji":"jozu", "gana":"じょず","translation":"Well"},
 {"romaji":"doumo", "gana":"どうも","translation":"Very Much"},
@@ -292,8 +292,8 @@
 {"romaji":"otto", "gana":"おっと","translation":"Husband"},
 {"romaji":"chichi", "gana":"ちち","translation":"Father/Dad"},
 {"romaji":"terebi", "gana":"テレビ","translation":"Television"},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""}
+{"romaji":"eiga", "gana":"えいが","translation":"Movie"},
+{"romaji":"jozu", "gana":"じょず","translation":"Well"},
+{"romaji":"sakka", "gana":"サッカー","translation":"Soccer"},
+{"romaji":"oshimasu", "gana":"おします","translation":"Play"}
 ]
