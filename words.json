@@ -291,5 +291,9 @@
 {"romaji":"atamagaii", "gana":"あたまがいい","translation":"Smart"},
 {"romaji":"otto", "gana":"おっと","translation":"Husband"},
 {"romaji":"chichi", "gana":"ちち","translation":"Father/Dad"},
-{"romaji":"terebi", "gana":"テレビ","translation":"Television"}
+{"romaji":"terebi", "gana":"テレビ","translation":"Television"},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""}
 ]
