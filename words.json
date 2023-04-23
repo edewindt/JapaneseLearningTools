@@ -295,5 +295,8 @@
 {"romaji":"eiga", "gana":"えいが","translation":"Movie"},
 {"romaji":"jozu", "gana":"じょず","translation":"Well"},
 {"romaji":"sakka", "gana":"サッカー","translation":"Soccer"},
-{"romaji":"oshimasu", "gana":"おします","translation":"Play"}
-]
+{"romaji":"oshimasu", "gana":"おします","translation":"Play"},
+{"romaji":"tokidoki", "gana":"ときどき","translation":"Sometimes"},
+{"romaji":"basketto", "gana":"バスケットボール","translation":"Basketball"},
+{"romaji":"ongaku", "gana":"おんがく","translation":"Music"},
+{"romaji":"okkimasu", "gana":"おっきます","translation":"Listen"}]
