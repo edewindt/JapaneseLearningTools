@@ -300,9 +300,9 @@
 {"romaji":"basketto", "gana":"バスケットボール","translation":"Basketball"},
 {"romaji":"ongaku", "gana":"おんがく","translation":"Music"},
 {"romaji":"okkimasu", "gana":"おっきます","translation":"Listen"},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""}
+{"romaji":"omimasu", "gana":"おきます","translation":"Watch"},
+{"romaji":"rokku", "gana":"ロック","translation":"Rock"},
+{"romaji":"jazu", "gana":"ジャズ","translation":"Jazz"},
+{"romaji":"nyuusu", "gana":"ニュウス","translation":"News"},
+{"romaji":"hon", "gana":"ほん","translation":"Books"}
 ]
