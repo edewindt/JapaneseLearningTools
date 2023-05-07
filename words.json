@@ -305,9 +305,9 @@
 {"romaji":"jazu", "gana":"ジャズ","translation":"Jazz"},
 {"romaji":"nyuusu", "gana":"ニュウス","translation":"News"},
 {"romaji":"hon", "gana":"ほん","translation":"Books"},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""}
+{"romaji":"zasshi", "gana":"","translation":"Magazines"},
+{"romaji":"yomimasu", "gana":"","translation":"Read"},
+{"romaji":"yakyuu", "gana":"","translation":"Baseball"},
+{"romaji":"jpoppu", "gana":"","translation":"J-Pop"},
+{"romaji":"sandoichi", "gana":"","translation":"Sandwich"}
 ]
