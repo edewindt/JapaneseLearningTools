@@ -304,5 +304,10 @@
 {"romaji":"rokku", "gana":"ロック","translation":"Rock"},
 {"romaji":"jazu", "gana":"ジャズ","translation":"Jazz"},
 {"romaji":"nyuusu", "gana":"ニュウス","translation":"News"},
-{"romaji":"hon", "gana":"ほん","translation":"Books"}
+{"romaji":"hon", "gana":"ほん","translation":"Books"},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""}
 ]
