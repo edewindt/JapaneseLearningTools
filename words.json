@@ -309,5 +309,9 @@
 {"romaji":"yomimasu", "gana":"よみます","translation":"Read"},
 {"romaji":"yakyuu", "gana":"やきゅう","translation":"Baseball"},
 {"romaji":"jpoppu", "gana":"jポップ","translation":"J-Pop"},
-{"romaji":"sandoichi", "gana":"サンドイッチ","translation":"Sandwich"}
+{"romaji":"sandoichi", "gana":"サンドイッチ","translation":"Sandwich"},
+{"romaji":"pan", "gana":"パン","translation":" Bread"},
+{"romaji":"mainichi", "gana":"まいにち","translation":"Everyday"},
+{"romaji":"juusu", "gana":"ジュース","translation":"Juice"},
+{"romaji":"cohii", "gana":"コヒイ","translation":"Coffee"}
 ]
