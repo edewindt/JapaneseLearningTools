@@ -314,7 +314,9 @@
 {"romaji":"mainichi", "gana":"まいにち","translation":"Everyday"},
 {"romaji":"juusu", "gana":"ジュース","translation":"Juice"},
 {"romaji":"cohii", "gana":"コヒイ","translation":"Coffee"},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""},
-{"romaji":"", "gana":"","translation":""}]
+{"romaji":"nomimasu", "gana":"","translation":""},
+{"romaji":"maiasa", "gana":"","translation":""},
+{"romaji":"maiban", "gana":"","translation":""},
+{"romaji":"asagohan", "gana":"","translation":""},
+{"romaji":"hirugohan", "gana":"","translation":""}
+]
