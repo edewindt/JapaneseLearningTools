@@ -314,9 +314,9 @@
 {"romaji":"mainichi", "gana":"まいにち","translation":"Everyday"},
 {"romaji":"juusu", "gana":"ジュース","translation":"Juice"},
 {"romaji":"cohii", "gana":"コヒイ","translation":"Coffee"},
-{"romaji":"nomimasu", "gana":"","translation":"Drink"},
-{"romaji":"maiasa", "gana":"","translation":"Every Morning"},
-{"romaji":"maiban", "gana":"","translation":"Every Night"},
-{"romaji":"asagohan", "gana":"","translation":"Breakfast"},
-{"romaji":"hirugohan", "gana":"","translation":"Lunch"}
+{"romaji":"nomimasu", "gana":"のみます","translation":"Drink"},
+{"romaji":"maiasa", "gana":"まいあさ","translation":"Every Morning"},
+{"romaji":"maiban", "gana":"まいばん","translation":"Every Night"},
+{"romaji":"asagohan", "gana":"あさごはん","translation":"Breakfast"},
+{"romaji":"hirugohan", "gana":"ひるごはん","translation":"Lunch"}
 ]
