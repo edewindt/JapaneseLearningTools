@@ -319,8 +319,13 @@
 {"romaji":"maiban", "gana":"まいばん","translation":"Every Night"},
 {"romaji":"asagohan", "gana":"あさごはん","translation":"Breakfast"},
 {"romaji":"hirugohan", "gana":"ひるごはん","translation":"Lunch"},
-{"romaji":"bentou", "gana":"","translation":"Boxed Lunch"},
-{"romaji":"bangohan", "gana":"","translation":"Dinner"},
-{"romaji":"furui", "gana":"","translation":"Old"},
-{"romaji":"fuku", "gana":"","translation":"Clothes"}
+{"romaji":"bentou", "gana":"べんとう","translation":"Boxed Lunch"},
+{"romaji":"bangohan", "gana":"ばんごはん","translation":"Dinner"},
+{"romaji":"furui", "gana":"ふるい","translation":"Old"},
+{"romaji":"fuku", "gana":"ふく","translation":"Clothes"},
+
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""}
 ]
