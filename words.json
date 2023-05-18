@@ -323,9 +323,12 @@
 {"romaji":"bangohan", "gana":"ばんごはん","translation":"Dinner"},
 {"romaji":"furui", "gana":"ふるい","translation":"Old"},
 {"romaji":"fuku", "gana":"ふく","translation":"Clothes"},
-
 {"romaji":"dasai", "gana":"ださい","translation":"Hideous"},
 {"romaji":"sukaato", "gana":"スカアト","translation":"Skirt"},
 {"romaji":"tishatsu", "gana":"地シャツ","translation":"T-Shirt"},
-{"romaji":"hoshii", "gana":"ほぃい","translation":"Want/Desire"}
-]
+{"romaji":"hoshii", "gana":"ほぃい","translation":"Want/Desire"},
+
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""}]
