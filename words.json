@@ -331,7 +331,7 @@
 {"romaji":"ne", "gana":"ね","translation":"isn't it?"},
 {"romaji":"doresu", "gana":"ドレス","translation":"dress"},
 {"romaji":"aoi", "gana":"あおい","translation":"blue"},
-{"romaji":"nekutai", "gana":"","translation":"Neck Tie"},
-{"romaji":"yasui", "gana":"","translation":"Cheap"},
-{"romaji":"ikura", "gana":"","translation":"How Much"},
-{"romaji":"jaketto", "gana":"","translation":"Jacket"}]
+{"romaji":"nekutai", "gana":"ネクタイ","translation":"Neck Tie"},
+{"romaji":"yasui", "gana":"やすい","translation":"Cheap"},
+{"romaji":"ikura", "gana":"いくら","translation":"How Much"},
+{"romaji":"jaketto", "gana":"じゃけっと","translation":"Jacket"}]
