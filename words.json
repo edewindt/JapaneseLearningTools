@@ -330,4 +330,8 @@
 {"romaji":"atarashi", "gana":"あたらし","translation":"New"},
 {"romaji":"ne", "gana":"ね","translation":"isn't it?"},
 {"romaji":"doresu", "gana":"ドレス","translation":"dress"},
-{"romaji":"aoi", "gana":"あおい","translation":"blue"}]
+{"romaji":"aoi", "gana":"あおい","translation":"blue"},
+{"romaji":"nekutai", "gana":"","translation":""},
+{"romaji":"yasui", "gana":"","translation":""},
+{"romaji":"ikura", "gana":"","translation":""},
+{"romaji":"jaketto", "gana":"","translation":""}]
