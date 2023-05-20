@@ -335,9 +335,9 @@
 {"romaji":"yasui", "gana":"やすい","translation":"Cheap"},
 {"romaji":"ikura", "gana":"いくら","translation":"How Much"},
 {"romaji":"jaketto", "gana":"じゃけっと","translation":"Jacket"},
-{"romaji":"mise", "gana":"","translation":"Store"},
-{"romaji":"takai", "gana":"","translation":"Expensive"},
-{"romaji":"sen", "gana":"","translation":"Thousand"},
-{"romaji":"resutoran", "gana":"","translation":"Restaurant"},
-{"romaji":"tenpura", "gana":"","translation":"Tempura"}
+{"romaji":"mise", "gana":"みせ","translation":"Store"},
+{"romaji":"takai", "gana":"たかい","translation":"Expensive"},
+{"romaji":"sen", "gana":"セン","translation":"Thousand"},
+{"romaji":"resutoran", "gana":"レストラン","translation":"Restaurant"},
+{"romaji":"tenpura", "gana":"てんぷら","translation":"Tempura"}
 ]
