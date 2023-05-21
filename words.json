@@ -340,8 +340,8 @@
 {"romaji":"sen", "gana":"セン","translation":"Thousand"},
 {"romaji":"resutoran", "gana":"レストラン","translation":"Restaurant"},
 {"romaji":"tenpura", "gana":"てんぷら","translation":"Tempura"},
-{"romaji":"teishoku", "gana":"ていしょく","translation":""},
-{"romaji":"yottsu", "gana":"よっつ","translation":""},
-{"romaji":"mittsu", "gana":"みっつ","translation":""},
-{"romaji":"futatsu", "gana":"ふたつ","translation":""}
+{"romaji":"teishoku", "gana":"ていしょく","translation":"Meal Set"},
+{"romaji":"yottsu", "gana":"よっつ","translation":"Four"},
+{"romaji":"mittsu", "gana":"みっつ","translation":"Three"},
+{"romaji":"futatsu", "gana":"ふたつ","translation":"Two"}
 ]
