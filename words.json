@@ -344,7 +344,7 @@
 {"romaji":"yottsu", "gana":"よっつ","translation":"Four"},
 {"romaji":"mittsu", "gana":"みっつ","translation":"Three"},
 {"romaji":"futatsu", "gana":"ふたつ","translation":"Two"},
-{"romaji":"hitotsu", "gana":"","translation":""},
-{"romaji":"misoshiru", "gana":"","translation":""},
-{"romaji":"aisukurimu", "gana":"","translation":""}
+{"romaji":"hitotsu", "gana":"ひとつ","translation":""},
+{"romaji":"misoshiru", "gana":"みそしる","translation":""},
+{"romaji":"aisukuriimu", "gana":"アイスクリーム","translation":""}
 ]
