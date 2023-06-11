@@ -349,5 +349,8 @@
 {"romaji":"aisukuriimu", "gana":"アイスクリーム","translation":"Ice Cream"},
 {"romaji":"koucha", "gana":"こうちゃ","translation":"Black Tea"},
 {"romaji":"kohii", "gana":"コヒイ","translation":"Coffee"},
-{"romaji":"hanashimasu", "gana":"はなします","translation":"Speak"}
+{"romaji":"hanashimasu", "gana":"はなします","translation":"Speak"},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""}
 ]
