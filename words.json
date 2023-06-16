@@ -352,5 +352,8 @@
 {"romaji":"hanashimasu", "gana":"はなします","translation":"Speak"},
 {"romaji":"jouzu", "gana":"じょうず","translation":"Skilled"},
 {"romaji":"koen", "gana":"こえん","translation":"Park"},
-{"romaji":"asoko", "gana":"あそこ","translation":"Over There"}
+{"romaji":"asoko", "gana":"あそこ","translation":"Over There"},
+{"romaji":"dekkakemasu", "gana":"","translation":""},
+{"romaji":"tomodachi", "gana":"","translation":""},
+{"romaji":"douyoubi", "gana":"","translation":""}
 ]
