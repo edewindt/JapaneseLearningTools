@@ -353,7 +353,7 @@
 {"romaji":"jouzu", "gana":"じょうず","translation":"Skilled"},
 {"romaji":"koen", "gana":"こえん","translation":"Park"},
 {"romaji":"asoko", "gana":"あそこ","translation":"Over There"},
-{"romaji":"dekakemasu", "gana":"","translation":"Go out with"},
-{"romaji":"tomodachi", "gana":"","translation":"Friend"},
-{"romaji":"douyoubi", "gana":"","translation":"Saturday"}
+{"romaji":"dekakemasu", "gana":"でかけます","translation":"Go out with"},
+{"romaji":"tomodachi", "gana":"ともだち","translation":"Friend"},
+{"romaji":"douyoubi", "gana":"どうようび","translation":"Saturday"}
 ]
