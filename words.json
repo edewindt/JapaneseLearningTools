@@ -361,5 +361,7 @@
 {"romaji":"tenisu", "gana":"テニス","translation":"Tennis"},
 {"romaji":"juudo", "gana":"じゅうど","translation":"Judo"},
 {"romaji":"oyogimasu", "gana":"およぎます","translation":"Swim"},
-{"romaji":"nichyoubi", "gana":"にちようび","translation":"Sunday"}
+{"romaji":"nichyoubi", "gana":"にちようび","translation":"Sunday"},
+{"romaji":"", "gana":"","translation":""},
+{"romaji":"", "gana":"","translation":""}
 ]
