@@ -366,5 +366,7 @@
 {"romaji":"douga", "gana":"どうが","translation":"Video"},
 {"romaji":"asobimasu", "gana":"遊びます","translation":"To Play"},
 {"romaji":"hitori", "gana":"ひとり","translation":"Alone"}, 
-{"romaji":"hoomu", "gana":"ほおむ","translation":"Platform"}
+{"romaji":"hoomu", "gana":"ほおむ","translation":"Platform"},
+{"romaji":"kaisatsu", "gana":"","translation":""},
+{"romaji":"gomibako", "gana":"","translation":""}
 ]
